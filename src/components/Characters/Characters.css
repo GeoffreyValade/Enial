@@ -1,0 +1,12 @@
+.portrait-grid{
+    display:inline-flex;
+    gap:80px;
+}
+
+#playersTitle{
+    text-align: left;
+    text-decoration: underline;
+    color:rgb(168, 168, 168);
+    margin-bottom:50px;
+    font-size:42px;
+}

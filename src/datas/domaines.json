@@ -1,0 +1,71 @@
+[
+    {
+        "id" : "1energ",
+        "title" : "Maîtrise de l'énergie"
+    },
+    {
+        "id" : "2sorti",
+        "title" : "Maîtrise des sortilèges"
+    },
+    {
+        "id" : "3rituel",
+        "title" : "Maîtrise des rituels"
+    },
+    {
+        "id" : "4destru",
+        "title" : "Destruction"
+    },
+    {
+        "id" : "5abjur",
+        "title" : "Abjuration"
+    },
+    {
+        "id" : "6defcmag",
+        "title" : "Défense contre la magie"
+    },
+    {
+        "id" : "7transpat",
+        "title" : "Transmutation spatiale"
+    },
+    {
+        "id" : "8trantemp",
+        "title" : "Transmutation temporelle"
+    },
+    {
+        "id" : "9tranmat",
+        "title" : "Transmutation de la matière"
+    },
+    {
+        "id" : "10transfig",
+        "title" : "Transfiguration"
+    },
+    {
+        "id" : "11illupro",
+        "title" : "Illusions projectives"
+    },
+    {
+        "id" : "12enchclas",
+        "title" : "Enchantement classique"
+    },
+    {
+        "id" : "13enchcomb",
+        "title" : "Enchantement de combat"
+    },
+    {
+        "id" : "14sysmag",
+        "title" : "Maîtrise des systèmes magiques"
+    },
+    {
+        "id" : "15divspat",
+        "title" : "Divination spatiale"
+    },
+    {
+        "id" : "16divtemp",
+        "title" : "Divination temporelle"
+    },
+    {
+        "id" : "17percepmag",
+        "title" : "Perception de la magie"
+    }
+]
+

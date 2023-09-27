@@ -1,0 +1,176 @@
+.sheet {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    z-index: 1;
+    border: 5px solid rgb(121, 121, 121);
+    padding-bottom: 40px;
+    background-image: url("https://i.imgur.com/NvK3xWN.png");
+}
+
+.boutons-et-fiches {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.boutons-fiche {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 1px;
+}
+
+.bouton-unique-fiche {
+    width: 200px;
+    height: 45px;
+    bottom:0;
+    display:relative;
+    border-radius: 0px;
+    border: 0px;
+    font-size: 20px;
+    color: rgb(225, 225, 48);
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 1);
+    background-image: url("../../assets/button.png");
+    background-size: 200px 45px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 0, 0, 0);
+
+}
+
+.bouton-container {
+    transition: bottom 1s ease 0s;
+    transition: box-shadow 0.1s ease 0s;
+    border-radius: 7px;
+}
+
+.bouton-container:hover {
+    box-shadow: 0px 0px 10px rgba(253, 255, 111, 0.586);
+}
+
+
+.selected {
+    background-color: rgba(255, 0, 0, 0);
+    bottom: -10px;
+    transform: scale(0.98);
+    position: relative;
+    align-self: flex-end;
+}
+
+.selected:hover {
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0)
+}
+
+.traits-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 50px;
+    margin-left: 28px;
+    margin-bottom: 50px;
+}
+
+.traits-icons {
+    width: auto;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 8px;
+    transition: transform 0.03s ease;
+    transform: scale(1.15);
+    padding: 6px;
+}
+
+.trait-unique-icon {
+    cursor: pointer;
+}
+
+.trait-unique-icon:hover {
+    transform: scale(1.25);
+}
+
+.delete-btn {
+    color: rgba(138, 34, 34, 0.493);
+}
+
+.delete-btn:hover {
+    color: rgb(221, 0, 0);
+}
+
+.edit-btn {
+    color: rgba(0, 0, 0, 0.395);
+}
+
+.edit-btn:hover {
+    color: black;
+}
+
+.trait-unique-container {
+    width: 95%;
+    display: inline-flex;
+    border: 1px solid grey;
+    border-radius: 5px;
+    align-items: baseline;
+    padding: 6px;
+    justify-content: space-between;
+    transition: background-color 0.3s ease, transform 0.1s ease
+}
+
+.trait-unique-container:hover {
+    background-color: rgba(255, 255, 255, 0.324);
+    transform: scale(1.007)
+}
+
+.trait-wrapper {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.traits-style {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.trait-titre-style {
+    font-weight: bold;
+    text-align: left;
+    white-space: nowrap;
+    margin-right: 5px;
+}
+
+.trait-descri-et-stats {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.trait-lignes-descri-stats {
+    text-align: left;
+}
+
+.open-modal-btn {
+    width: 80px;
+    height: 80px;
+    background-image: url("../../assets/square-button.png");
+    background-size: 80px, 80px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(225, 225, 48);
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    transition:box-shadow 0.2s ease, transform 0.4s ease;
+    margin-left: 28px;
+    cursor: pointer;
+}
+
+.open-modal-btn:hover {
+    transform:scale(1.10);
+    box-shadow: 0px 0px 10px rgb(255, 255, 67);
+}

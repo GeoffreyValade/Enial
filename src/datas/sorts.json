@@ -1,0 +1,4936 @@
+[
+    {
+        "id": "managem",
+        "domaine": "Maîtrise de l'énergie",
+        "tiers": "1",
+        "titre": "Gemme de mana",
+        "sortilege": true,
+        "description": "La création de gemmes de mana est l'une des techniques de base pour créer des réserves à utiliser en situation d'urgence.",
+        "effetinitial": "Le mage condense une certaine quantité de mana en une gemme qu'il pourra consommer plus tard. La gemme prend deux places d'inventaire.",
+        "prerequis": [
+            {
+                "nivenerg" : "500",
+                "nivsort" : "100"
+            }
+        ],
+        "cout": "Jusqu'à 20 points de mana",
+        "type1": "Utilitaire",
+        "type2" : "Statique et distante",
+        "seuil": "45",
+        "range": null,
+        "basedujet": "Intelligence x2",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "Augmente la quantité de mana maximum dans une gemme de 20.",
+                        "prerequis": [
+                            {
+                                "nivsort" : "200"
+                            }
+                        ]
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "Augmente la quantité de mana maximum dans une gemme de 20.",
+                        "prerequis": [
+                            {
+                                "nivsort" : "700"
+                            }
+                        ]
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "Augmente la quantité de mana maximum dans une gemme de 20.",
+                        "prerequis": [
+                            {
+                                "nivsort" : "1300"
+                            }
+                        ]
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "Augmente la quantité de mana maximum dans une gemme de 20.",
+                        "prerequis": [
+                            {
+                                "nivsort" : "2000"
+                            }
+                        ]
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "Augmente la quantité de mana maximum dans une gemme de 20.",
+                        "prerequis": [
+                            {
+                                "nivsort" : "2800"
+                            }
+                        ]
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "Consommer une gemme de mana réduit de 20% le coût en mana du prochain sortilège lancé.",
+                        "prerequis": [
+                            {
+                                "nivenerg" : "1900",
+                                "nivenchcomb" : "500"
+
+                            }
+                        ]
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "Les gemmes de mana ne prennent plus qu'une place d'inventaire.",
+                        "prerequis": [
+                            {
+                                "nivenerg" : "1100",
+                                "nivtransmat" : "1100"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+
+
+
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "",
+        "domaine": "",
+        "tiers": "",
+        "titre": "",
+        "sortilege": true,
+        "description": "",
+        "effetinitial": "",
+        "prerequis": "",
+        "cout": "",
+        "type": "",
+        "seuil": "",
+        "range": "",
+        "basedujet": "",
+        "effetsadditionnel": [
+            {
+                "effetadd1": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd2": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd3": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd4": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd5": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd6": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd7": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd8": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd9": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ],
+                "effetadd10": [
+                    {
+                        "effet": "",
+                        "prerequis": ""
+                    }
+                ]
+            }
+        ]
+    }
+]

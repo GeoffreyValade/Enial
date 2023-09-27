@@ -1,0 +1,191 @@
+[
+    {
+        "id": "aec3grh2",
+        "joueur": "Xavier",
+        "prenom": "Cyesara",
+        "nom": "Vengehélion",
+        "race": "sin'dorei",
+        "caracs": [
+            {
+                "Constitution": 22,
+                "Force": 22,
+                "Agilité": 16,
+                "Furtivité": 22,
+                "Perception": 21,
+                "Intelligence": 23,
+                "Volonté": 24
+            }
+        ],
+        "traits": [],
+        "portrait": "https://2img.net/u/4013/71/00/37/avatars/3-11.jpg"
+    },
+    {
+        "id": "zef6aef1",
+        "joueur": "Soom",
+        "prenom": "Bolvar",
+        "nom": "Desmond",
+        "race": "humain",
+        "caracs": [
+            {
+                "Constitution": 22,
+                "Force": 22,
+                "Agilité": 16,
+                "Furtivité": 22,
+                "Perception": 21,
+                "Intelligence": 23,
+                "Volonté": 24
+            }
+        ],
+        "traits": [
+            {
+                "id" : "traitbolv001",
+                "titre": "Fuck Bolvar",
+                "description": "Très fort.",
+                "statsetbonus": [
+                    {
+                        "Destruction": "+14 aux explosions"
+                    }
+                ]
+            }
+        ],
+        "portrait": null
+    },
+    {
+        "id": "nui8ght5",
+        "joueur": "Flavien",
+        "prenom": "Gaddi",
+        "nom": "",
+        "race": "gobelin",
+        "caracs": [
+            {
+                "Constitution": 22,
+                "Force": 22,
+                "Agilité": 16,
+                "Furtivité": 22,
+                "Perception": 21,
+                "Intelligence": 23,
+                "Volonté": 24
+            }
+        ],
+        "traits": [],
+        "portrait": "https://2img.net/u/4013/71/00/37/avatars/2-32.jpg"
+    },
+    {
+        "id": "az6ec84a",
+        "joueur": "Geoffrey",
+        "prenom": "Benrig",
+        "nom": "Front-de-Pierre",
+        "surnom": "Ben",
+        "age": "37",
+        "description" :"Vous avez à faire à un nain aux traits assez jeunes. Si on enlevait la barbe, on lui donnerait 31 ou 32 ans, à l'échelle d'un homme. Votre copain barbu à l'allure peu bourrue, pour un nain n'est pas bien massif. Il n'a pas la carrure des plus actifs.",
+        "resumerp" : "Quelques semaines après avoir été embauché chez un enchanteur de prestige à Forgefer, Benrig a malencontreusement cassé un objet de valeur. Suite à ces faits, il a été renvoyé par son mentor. Les autres enchanteurs et même les plus miteux antiquaires de la cité avaient tous eu vent de cet accident provoqué par le jeune nain, refusant catégoriquement de l'embaucher. A court de solutions, Benrig se rabattu sur des emplois alimentaires, abandonnant de fait ses projets d'études ésotériques dans une grande frustration.",
+        "race": "nain",
+        "caracs": [
+            {
+                "Constitution": 22,
+                "Force": 22,
+                "Agilité": 16,
+                "Furtivité": 22,
+                "Perception": 21,
+                "Intelligence": 23,
+                "Volonté": 24
+            }
+        ],
+        "traits": [
+            {
+                "id" : "traitbenr001",
+                "titre": "Résistance naturelle - Barbe-de-Bronze",
+                "description": "Augmente la résistance physique de 5 et la résistance au givre de 10. Augmente également la force et la constitution de 1.",
+                "statsetbonus": [
+                    {
+                        "Résistance physique": "+5",
+                        "Résistance au givre": "+10",
+                        "Constitution": "+2"
+                    }
+                ]
+            },
+            {
+                "id" : "traitbenr002",
+                "titre": "Stable ",
+                "description": "Sera moins impacté que les autres races par tout effet qui vise à le faire tomber ou à le projeter dans une direction.",
+                "statsetbonus": [
+                    {
+                        "Bonus": "Moins impacté par les projections et les mises à terre"
+                    }
+                ]
+            },
+            {
+                "id" : "traitbenr003",
+                "titre": "Talent artisanal",
+                "description": "Augmente de 10% l'acquisition de points de maîtrise dans tous les domaines qui relèvent de l'artisanat (notamment l'enchantement, la maîtrise des systèmes magiques et l'alchimise).",
+                "statsetbonus": [
+                    {
+                        "Gains en enchantement classique": "+10%"
+                    }
+                ]
+            },
+            {
+                "id" : "traitbenr004",
+                "titre": "Surpoids notable",
+                "description": "Benrig a accumulé un problème au fil des années d'inactivité physique et d'abus alimentaires. Rien d'impossible à solutionner, mais le problème reste clair. Il est gros. Et il sera moins endurant tant que cela durera. Mais grâce à sa dermination, Benrig a surmonté son problème de poids.",
+                "statsetbonus": [
+                    {
+                        "Volonté": "+2"
+                    }
+                ]
+            },
+            {
+                "id" : "traitbenr005",
+                "titre": "Trait inconnu",
+                "description": "???",
+                "statsetbonus": [
+                    {
+                        "Affinité arcanique": "+2"
+                    }
+                ]
+            }
+        ],
+        "portrait": "https://2img.net/u/4013/71/00/37/avatars/8-60.jpg"
+    },
+    {
+        "id": "bui7pnr6",
+        "joueur": "Vlad",
+        "prenom": "Jixie",
+        "nom": "",
+        "race": "gobeline",
+        "caracs": [
+            {
+                "Constitution": 22,
+                "Force": 22,
+                "Agilité": 16,
+                "Furtivité": 22,
+                "Perception": 21,
+                "Intelligence": 23,
+                "Volonté": 24
+            }
+        ],
+        "traits": [],
+        "portrait": null
+
+    },
+    {
+        "id": "bnt5jqt1",
+        "joueur": "Cyriane",
+        "prenom": "Adora",
+        "nom": "Mildenhall",
+        "race": "humaine",
+        "caracs": [
+            {
+                "Constitution": 22,
+                "Force": 22,
+                "Agilité": 16,
+                "Furtivité": 22,
+                "Perception": 21,
+                "Intelligence": 23,
+                "Volonté": 24
+            }
+        ],
+        "traits": [],
+        "portrait": "https://2img.net/u/4013/71/00/37/avatars/7-75.jpg"
+    }
+]

@@ -1,0 +1,50 @@
+.portrait-container {
+    position: relative;
+    width: 170px;
+    height: 265px;
+    border: 6px solid #a57329b0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.portrait-container:hover {
+    transform: scale(1.15);
+}
+
+
+.portrait {
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-bottom: 2px solid #f0ff82;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.portraitName{
+    position: absolute;
+    bottom: 0;
+    margin:0px;
+    left: 0px;
+    width:100%;
+    height:42px;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: rgb(255, 232, 104);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portrait-link {
+    text-decoration: none;
+    color: inherit;
+}

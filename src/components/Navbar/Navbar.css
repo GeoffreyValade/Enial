@@ -1,0 +1,26 @@
+nav {
+    width:100%;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    gap:70px;
+    margin:70px;
+}
+
+.nav-links a{
+    color:rgb(172, 172, 172);
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    color: rgba(239, 130, 239, 0.796);
+    text-decoration: underline;
+}
