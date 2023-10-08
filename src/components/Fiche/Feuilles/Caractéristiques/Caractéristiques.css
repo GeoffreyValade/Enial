@@ -1,0 +1,56 @@
+.caracs-table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.caracs-table th {
+    padding: 10px 0px 0px 0px;
+    font-size: 21px;
+    text-align: center;
+    border-bottom: 0px;
+}
+
+.caracs-table td {
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    border-top: 0px;
+}
+
+.carac-all-detail {
+    display: inline-flex;
+    flex-direction: row;
+    margin: auto;
+    width: 40%;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.carac-all-detail h4 {
+    margin: 0px 0px 15px 0px;
+}
+
+.carac-all-detail ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.carac-all-detail li {
+    text-align: left;
+}
+
+.carac-detail-total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+    border-top: 1px solid black;
+}
+
+.carac-physique-detail,
+.carac-mental-detail {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 60px;
+}

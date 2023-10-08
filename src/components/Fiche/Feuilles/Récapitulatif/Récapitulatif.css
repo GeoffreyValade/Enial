@@ -1,0 +1,173 @@
+.all-info-recap{
+    display:flex;
+    flex-direction: column;
+    margin-top:45px;
+    gap:65px;
+}
+
+/* ---- First Container ---- */
+
+.recap-first-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.recap-names{
+    display:flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap:7px;
+    width:311px;
+}
+
+.recap-name, .recap-surname{
+    font-size:30px;
+}
+
+.recap-nickname{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.recap-race-age-sexe{
+    display:flex;
+    flex-direction: column;
+    align-items: baseline;
+    font-size: 20px;
+    width:292px;
+}
+
+.recap-first-container-titles{
+    font-weight:bold;
+}
+
+/* ---- Second Container ---- */
+.recap-second-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.recap-description-background{
+    display:flex;
+    flex-direction: row;
+    width:76%;
+}
+
+.recap-description-background span{
+    font-size:20px;
+    font-weight: bolder;
+}
+
+.recap-background{
+    width:50%;
+    border:1px solid black;
+}
+
+.recap-description{
+    width:50%;
+    border:1px solid black;
+}
+
+.recap-description p, .recap-background p{
+    text-align: justify;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.recap-portrait{
+    width:20%;
+    margin-left:2%;
+}
+
+/* ---- Third Container ---- */
+
+.BsSuitHeartFill{
+    color:pink;
+}
+
+.recap-third-container{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around ;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.recap-third-container ul{
+    display:flex;
+    flex-direction: column;
+    align-items: baseline;
+    list-style: none;
+    font-size:40px;
+    gap:34px;
+}
+
+.recap-third-container li{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+}
+
+.ressources-icons{
+    width:42px;
+    height:42px;
+    padding:0px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-total{
+    font-size: 24px;
+    border-right:3px solid black;
+}
+
+.align-table-content{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size:20px;
+}
+
+.align-table-content svg{
+    width:28px;
+    height:28px;
+    padding:0px 4px 0px 4px;
+}
+
+/* ---- Fourth Container ---- */
+
+.recap-fourth-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    margin-top:45px;
+}
+
+.domain-title{
+    float: left;
+    font-size: 24px;
+}
+
+.domain-niveau{
+    float: right;
+    font-size:24px;
+}
+
+.table-domains{
+    width:95%;
+}
+
+.table-domains table{
+    width:100%;
+}

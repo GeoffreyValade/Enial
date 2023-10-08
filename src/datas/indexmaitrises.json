@@ -1,85 +1,291 @@
 [
     {
-        "id": "indexdomainesmag",
-        "niv1": "100",
-        "niv2": "500",
-        "niv3": "1100",
-        "niv4": "1900",
-        "niv5": "2900",
-        "niv6": "4700",
-        "niv7": "7300",
-        "niv8": "11100",
-        "niv9": "16100",
-        "niv10": "22300"
+        "indexDomainesMagiques": {
+            "niveau1": {
+                "niveau": 1,
+                "pointsRequis": 100
+            },
+            "niveau2": {
+                "niveau": 2,
+                "pointsRequis": 500
+            },
+            "niveau3": {
+                "niveau": 3,
+                "pointsRequis": 1100
+            },
+            "niveau4": {
+                "niveau": 4,
+                "pointsRequis": 1900
+            },
+            "niveau5": {
+                "niveau": 5,
+                "pointsRequis": 2900
+            },
+            "niveau6": {
+                "niveau": 6,
+                "pointsRequis": 4700
+            },
+            "niveau7": {
+                "niveau": 7,
+                "pointsRequis": 7300
+            },
+            "niveau8": {
+                "niveau": 8,
+                "pointsRequis": 11100
+            },
+            "niveau9": {
+                "niveau": 9,
+                "pointsRequis": 16100
+            },
+            "niveau10": {
+                "niveau": 10,
+                "pointsRequis": 22300
+            }
+        }
     },
+    
     {
-        "id": "indexsortstiers1",
-        "niv1": "100",
-        "niv2": "200",
-        "niv3": "400",
-        "niv4": "700",
-        "niv5": "1000",
-        "niv6": "1300",
-        "niv7": "1600",
-        "niv8": "2000",
-        "niv9": "2400",
-        "niv10": "2800"
+        "indexSortsTiers1": {
+            "niveau1": {
+                "niveau": 1,
+                "pointsRequis": 100
+            },
+            "niveau2": {
+                "niveau": 2,
+                "pointsRequis": 200
+            },
+            "niveau3": {
+                "niveau": 3,
+                "pointsRequis": 400
+            },
+            "niveau4": {
+                "niveau": 4,
+                "pointsRequis": 700
+            },
+            "niveau5": {
+                "niveau": 5,
+                "pointsRequis": 1000
+            },
+            "niveau6": {
+                "niveau": 6,
+                "pointsRequis": 1300
+            },
+            "niveau7": {
+                "niveau": 7,
+                "pointsRequis": 1600
+            },
+            "niveau8": {
+                "niveau": 8,
+                "pointsRequis": 2000
+            },
+            "niveau9": {
+                "niveau": 9,
+                "pointsRequis": 2400
+            },
+            "niveau10": {
+                "niveau": 10,
+                "pointsRequis": 2800
+            }
+        }
     },
+
     {
-        "id": "indexsortstiers2",
-        "niv1": "200",
-        "niv2": "400",
-        "niv3": "800",
-        "niv4": "1400",
-        "niv5": "2000",
-        "niv6": "2600",
-        "niv7": "3200",
-        "niv8": "4000",
-        "niv9": "4800",
-        "niv10": "5600"
+        "indexSortsTiers2": {
+            "niveau1": {
+                "niveau": 1,
+                "pointsRequis": 200
+            },
+            "niveau2": {
+                "niveau": 2,
+                "pointsRequis": 400
+            },
+            "niveau3": {
+                "niveau": 3,
+                "pointsRequis": 800
+            },
+            "niveau4": {
+                "niveau": 4,
+                "pointsRequis": 1400
+            },
+            "niveau5": {
+                "niveau": 5,
+                "pointsRequis": 2000
+            },
+            "niveau6": {
+                "niveau": 6,
+                "pointsRequis": 2600
+            },
+            "niveau7": {
+                "niveau": 7,
+                "pointsRequis": 3200
+            },
+            "niveau8": {
+                "niveau": 8,
+                "pointsRequis": 4000
+            },
+            "niveau9": {
+                "niveau": 9,
+                "pointsRequis": 4800
+            },
+            "niveau10": {
+                "niveau": 10,
+                "pointsRequis": 5600
+            }
+        }
     },
+
     {
-        "id": "indexsortstiers3",
-        "niv1": "300",
-        "niv2": "600",
-        "niv3": "1200",
-        "niv4": "2100",
-        "niv5": "3000",
-        "niv6": "3900",
-        "niv7": "4800",
-        "niv8": "6000",
-        "niv9": "7200",
-        "niv10": "8400"
+        "indexSortsTiers3": {
+            "niveau1": {
+                "niveau": 1,
+                "pointsRequis": 300
+            },
+            "niveau2": {
+                "niveau": 2,
+                "pointsRequis": 600
+            },
+            "niveau3": {
+                "niveau": 3,
+                "pointsRequis": 1200
+            },
+            "niveau4": {
+                "niveau": 4,
+                "pointsRequis": 2100
+            },
+            "niveau5": {
+                "niveau": 5,
+                "pointsRequis": 3000
+            },
+            "niveau6": {
+                "niveau": 6,
+                "pointsRequis": 3900
+            },
+            "niveau7": {
+                "niveau": 7,
+                "pointsRequis": 4800
+            },
+            "niveau8": {
+                "niveau": 8,
+                "pointsRequis": 6000
+            },
+            "niveau9": {
+                "niveau": 9,
+                "pointsRequis": 7200
+            },
+            "niveau10": {
+                "niveau": 10,
+                "pointsRequis": 8400
+            }
+        }
     },
+
     {
-        "id": "indexdomainesgen",
-        "niv1": "100",
-        "niv2": "200",
-        "niv3": "300",
-        "niv4": "400",
-        "niv5": "500",
-        "niv6": "700",
-        "niv7": "900",
-        "niv8": "1100",
-        "niv9": "1300",
-        "niv10": "1500",
-        "niv11": "1900",
-        "niv12": "2300",
-        "niv13": "2700",
-        "niv14": "3100",
-        "niv15": "3500"
+        "indexDomainesGeneraux": {
+            "niveau1": {
+                "niveau": 1,
+                "pointsRequis": 100
+            },
+            "niveau2": {
+                "niveau": 2,
+                "pointsRequis": 200
+            },
+            "niveau3": {
+                "niveau": 3,
+                "pointsRequis": 300
+            },
+            "niveau4": {
+                "niveau": 4,
+                "pointsRequis": 400
+            },
+            "niveau5": {
+                "niveau": 5,
+                "pointsRequis": 500
+            },
+            "niveau6": {
+                "niveau": 6,
+                "pointsRequis": 700
+            },
+            "niveau7": {
+                "niveau": 7,
+                "pointsRequis": 900
+            },
+            "niveau8": {
+                "niveau": 8,
+                "pointsRequis": 1100
+            },
+            "niveau9": {
+                "niveau": 9,
+                "pointsRequis": 1300
+            },
+            "niveau10": {
+                "niveau": 10,
+                "pointsRequis": 1500
+            },
+            "niveau11": {
+                "niveau": 11,
+                "pointsRequis": 1900
+            },
+            "niveau12": {
+                "niveau": 12,
+                "pointsRequis": 2300
+            },
+            "niveau13": {
+                "niveau": 13,
+                "pointsRequis": 2700
+            },
+            "niveau14": {
+                "niveau": 14,
+                "pointsRequis": 3100
+            },
+            "niveau15": {
+                "niveau": 15,
+                "pointsRequis": 3500
+            }
+        }
     },
+
     {
-        "id": "indextechgen",
-        "niv1": "100",
-        "niv2": "300",
-        "niv3": "500",
-        "niv4": "800",
-        "niv5": "1100",
-        "niv6": "1500",
-        "niv7": "2000",
-        "niv8": "2500",
-        "niv9": "3200",
-        "niv10": "4000"
+        "indexTechGen": {
+            "niveau1": {
+                "niveau": 1,
+                "pointsRequis": 100
+            },
+            "niveau2": {
+                "niveau": 2,
+                "pointsRequis": 300
+            },
+            "niveau3": {
+                "niveau": 3,
+                "pointsRequis": 500
+            },
+            "niveau4": {
+                "niveau": 4,
+                "pointsRequis": 800
+            },
+            "niveau5": {
+                "niveau": 5,
+                "pointsRequis": 1100
+            },
+            "niveau6": {
+                "niveau": 6,
+                "pointsRequis": 1500
+            },
+            "niveau7": {
+                "niveau": 7,
+                "pointsRequis": 2000
+            },
+            "niveau8": {
+                "niveau": 8,
+                "pointsRequis": 2500
+            },
+            "niveau9": {
+                "niveau": 9,
+                "pointsRequis": 3200
+            },
+            "niveau10": {
+                "niveau": 10,
+                "pointsRequis": 4000
+            }
+        }
     }
 ]

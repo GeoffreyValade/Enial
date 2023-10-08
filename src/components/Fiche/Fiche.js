@@ -9,7 +9,7 @@ import InfoRP from "./Feuilles/InfoRP/InfoRP"
 import Recapitulatif from "./Feuilles/Récapitulatif/Récapitulatif"
 import Caracteristiques from "./Feuilles/Caractéristiques/Caractéristiques"
 import Traits from "./Feuilles/Traits/Traits"
-import Equipement from "./Feuilles/Equipement/Equipement"
+import Domaines from "./Feuilles/Domaines/Domaines"
 import Inventaire from "./Feuilles/Inventaire/Inventaire"
 import SortsEtTechniques from "./Feuilles/SortsEtTechniques/SortsEtTechniques"
 import Finances from "./Feuilles/Finances/Finances"
@@ -40,11 +40,11 @@ export default function Fiche() {
 
                         <div className={`bouton-container ${ongletActif === 'traits' ? 'selected' : ''}`}><button className="bouton-unique-fiche" onClick={() => afficherFeuille('traits')}>Traits</button></div>
 
-                        <div className={`bouton-container ${ongletActif === 'equipement' ? 'selected' : ''}`}><button className="bouton-unique-fiche" onClick={() => afficherFeuille('equipement')}>Equipements</button></div>
-
-                        <div className={`bouton-container ${ongletActif === 'inventaire' ? 'selected' : ''}`}><button className="bouton-unique-fiche" onClick={() => afficherFeuille('inventaire')}>Inventaire</button></div>
+                        <div className={`bouton-container ${ongletActif === 'domaines' ? 'selected' : ''}`}><button className="bouton-unique-fiche" onClick={() => afficherFeuille('domaines')}>Domaines</button></div>
 
                         <div className={`bouton-container ${ongletActif === 'sortsettechniques' ? 'selected' : ''}`}><button className="bouton-unique-fiche" onClick={() => afficherFeuille('sortsettechniques')}>Sorts et techniques</button></div>
+
+                        <div className={`bouton-container ${ongletActif === 'inventaire' ? 'selected' : ''}`}><button className="bouton-unique-fiche" onClick={() => afficherFeuille('inventaire')}>Inventaire</button></div>
 
                         <div className={`bouton-container ${ongletActif === 'finances' ? 'selected' : ''}`}><button className="bouton-unique-fiche" onClick={() => afficherFeuille('finances')}>Finances</button></div>
 
@@ -60,6 +60,11 @@ export default function Fiche() {
                             age={PlayersData[index].age}
                             resumerp={PlayersData[index].resumerp}
                             description={PlayersData[index].description}
+                            portrait={PlayersData[index].portrait}
+                            race={PlayersData[index].race}
+                            sexe={PlayersData[index].sexe}
+                            domainesmagiquesJoueur={PlayersData[index].domainesmagiques}
+                            domainesgenerauxJoueur={PlayersData[index].domainesgeneraux}
                         />}
 
                     {ongletActif === 'inforp' &&
@@ -72,6 +77,8 @@ export default function Fiche() {
                     {ongletActif === 'caracteristiques' &&
                         <Caracteristiques
                             caracs={PlayersData[index].caracs}
+                            domainesgenerauxJoueur={PlayersData[index].domainesgeneraux}
+                            traits={PlayersData[index].traits}
                         />}
 
                     {ongletActif === 'traits' &&
@@ -79,16 +86,18 @@ export default function Fiche() {
                             traits={PlayersData[index].traits}
                         />}
 
-                    {ongletActif === 'equipement' &&
-                        <Equipement
-                        />}
-
-                    {ongletActif === 'inventaire' &&
-                        <Inventaire
+                    {ongletActif === 'domaines' &&
+                        <Domaines
+                            domainesmagiquesJoueur={PlayersData[index].domainesmagiques}
+                            domainesgenerauxJoueur={PlayersData[index].domainesgeneraux}
                         />}
 
                     {ongletActif === 'sortsettechniques' &&
                         <SortsEtTechniques
+                        />}
+
+                    {ongletActif === 'inventaire' &&
+                        <Inventaire
                         />}
 
                     {ongletActif === 'finances' &&

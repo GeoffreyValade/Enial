@@ -1,0 +1,171 @@
+{
+    "humains": {
+        "id" : "racehum",
+        "name" : "Humain",
+        "caracsprincipales": {
+            "constitution": 20,
+            "force": 20,
+            "agilité": 20,
+            "perception": 20,
+            "furtivité": 20,
+            "intelligence": 20,
+            "volonté": 20
+        }
+    },
+    "hautselfes": {
+        "id" : "racehighelf",
+        "name" : "Haut-Elfe",
+        "caracsprincipales": {
+            "constitution": 18,
+            "force": 17,
+            "agilité": 22,
+            "perception": 23,
+            "furtivité": 19,
+            "intelligence": 22,
+            "volonté": 21
+        }
+    },
+    "nains": {
+        "id" : "racedwarf",
+        "name" : "Nain",
+        "caracsprincipales": {
+            "constitution": 23,
+            "force": 23,
+            "agilité": 16,
+            "perception": 18,
+            "furtivité": 22,
+            "intelligence": 20,
+            "volonté": 22
+        }
+    },
+    "gnomes": {
+        "id" : "racegnome",
+        "name" : "Gnome",
+        "caracsprincipales": {
+            "constitution": 13,
+            "force": 14,
+            "agilité": 24,
+            "perception": 16,
+            "furtivité": 25,
+            "intelligence": 24,
+            "volonté": 22
+        }
+    },
+    "orcs": {
+        "id" : "raceorc",
+        "name" : "Orc",
+        "caracsprincipales": {
+            "constitution": 24,
+            "force": 25,
+            "agilité": 17,
+            "perception": 18,
+            "furtivité": 20,
+            "intelligence": 20,
+            "volonté": 19
+        }
+    },
+    "trolls": {
+        "id" : "racetroll",
+        "name" : "Troll",
+        "caracsprincipales": {
+            "constitution": 22,
+            "force": 22,
+            "agilité": 23,
+            "perception": 21,
+            "furtivité": 20,
+            "intelligence": 18,
+            "volonté": 18
+        }
+    },
+    "draenei": {
+        "id" : "racedraenei",
+        "name" : "Draenei",
+        "caracsprincipales": {
+            "constitution": 27,
+            "force": 25,
+            "agilité": 16,
+            "perception": 20,
+            "furtivité": 15,
+            "intelligence": 22,
+            "volonté": 25
+        }
+    },
+    "kaldorei": {
+        "id" : "racekaldo",
+        "name" : "Kaldorei",
+        "caracsprincipales": {
+            "constitution": 23,
+            "force": 23,
+            "agilité": 23,
+            "perception": 22,
+            "furtivité": 23,
+            "intelligence": 21,
+            "volonté": 21
+        }
+    },
+    "shaldorei": {
+        "id" : "raceshaldo",
+        "name" : "Shaldorei",
+        "caracsprincipales": {
+            "constitution": 22,
+            "force": 20,
+            "agilité": 19,
+            "perception": 21,
+            "furtivité": 19,
+            "intelligence": 22,
+            "volonté": 20
+        }
+    },
+    "demielfes": {
+        "id" : "racedemielf",
+        "name" : "Demi-elfe",
+        "caracsprincipales": {
+            "constitution": 19,
+            "force": 19,
+            "agilité": 21,
+            "perception": 21,
+            "furtivité": 20,
+            "intelligence": 21,
+            "volonté": 20
+        }
+    },
+    "reprouve": {
+        "id" : "racereprouve",
+        "name" : "Réprouvé",
+        "caracsprincipales": {
+            "constitution": 16,
+            "force": 17,
+            "agilité": 20,
+            "perception": 17,
+            "furtivité": 22,
+            "intelligence": 20,
+            "volonté": 30
+        }
+    },
+    "pandaren": {
+        "id" : "racepanda",
+        "name" : "Pandaren",
+        "caracsprincipales": {
+            "constitution": 25,
+            "force": 21,
+            "agilité": 18,
+            "perception": 20,
+            "furtivité": 17,
+            "intelligence": 20,
+            "volonté": 21
+        }
+    },
+    "tauren": {
+        "id" : "racemow",
+        "name" : "Tauren",
+        "caracsprincipales": {
+            "constitution": 32,
+            "force": 27,
+            "agilité": 14,
+            "perception": 20,
+            "furtivité": 13,
+            "intelligence": 20,
+            "volonté": 21
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.domainesjoueur-container, .domaines0joueur-container, .domainesgenerauxjoueur-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 10px; 
+    padding: 10px; 
+}
+
+
+.domaines0joueur-container{
+    color:grey;
+}
+
+.domaine-wrapper{
+    position:relative;
+    display: inline-flex;
+    flex-direction: column;
+    width:95%;
+    border:1px black solid;
+    transition: background-color 0.2s ease, transform 0.1s ease
+}
+
+.domaine-wrapper:hover{
+    background-color: rgba(255, 255, 255, 0.324);
+    transform: scale(1.007)
+}
+
+.domaine-wrapper h1{
+    margin:15px 0px 10px 0px;
+}
+
+.domaine-info ul{
+    list-style: none;
+    padding:0;
+    display:inline-flex;
+    flex-direction: column;
+    gap:6px
+}
+
+.domaine-unique-icon{
+    position:absolute;
+    right:20px;
+    top:20px;
+}
+
+.domaine-unique-icon:hover {
+    transform: scale(1.25);
+    cursor:pointer;
+}
