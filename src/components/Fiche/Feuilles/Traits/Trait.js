@@ -1,9 +1,7 @@
 import React from "react";
 import { BsFillTrashFill, BsFillPencilFill } from "react-icons/bs";
 
-export default function Trait(props) {
-  const { titre, description, statsOuBonus, onDelete } = props;
-
+export default function Trait({ titre, description, statsOuBonus, onDelete }) {
   const handleDeleteClick = () => {
     onDelete(); // Appeler la fonction onDelete lorsque l'icône de suppression est cliquée
   };

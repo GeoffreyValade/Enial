@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import Trait from "./Trait.js";
 import Modal from "./Modal.js";
 
-export default function Traits(props) {
-  const { traits } = props;
+export default function Traits({ traits }) {
   const [traitsList, setTraitsList] = useState(traits);
   const [modalOpen, setModalOpen] = useState(false);
 

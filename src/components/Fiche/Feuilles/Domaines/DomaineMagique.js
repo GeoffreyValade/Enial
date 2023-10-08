@@ -3,9 +3,7 @@ import './Domaines.css';
 import { BsFillPencilFill } from 'react-icons/bs'; // Import de l'icône depuis 'react-icons/bs'
 import indexmaitrises from "../../../../datas/indexmaitrises.json"
 
-export default function DomaineMagique(props) {
-    const { title, points, niveau } = props;
-
+export default function DomaineMagique({ title, points, niveau }) {
     const pointsRequis = niveau < 10 ? indexmaitrises[0].indexDomainesMagiques[`niveau${niveau + 1}`].pointsRequis : 0;
 
     return (

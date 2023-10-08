@@ -3,10 +3,7 @@ import { BsSuitHeartFill, BsFillLightningChargeFill, BsEyeFill } from "react-ico
 import { GiMuscleUp, GiHood, GiBrain, GiBrainstorm, GiEmerald, GiRun, GiFist, GiMuscleFat, GiChestArmor } from "react-icons/gi";
 import indexmaitrises from '../../../../datas/indexmaitrises.json';
 
-export default function Recapitulatif(props) {
-
-    const { domainesgenerauxJoueur, domainesmagiquesJoueur, portrait, caracs, prenom, nom, surnom, age, race, sexe, resumerp, description } = props;
-
+export default function Recapitulatif({ domainesgenerauxJoueur, domainesmagiquesJoueur, portrait, caracs, prenom, nom, surnom, age, race, sexe, resumerp, description }) {
     const totalStats = {
         Constitution: caracs[0].Constitution + domainesgenerauxJoueur[0].niveau + 0,
         Force: caracs[0].Force + domainesgenerauxJoueur[1].niveau + 0,
@@ -17,23 +14,23 @@ export default function Recapitulatif(props) {
         Volonte: caracs[0].Volonté + domainesgenerauxJoueur[6].niveau + 0
     }
 
-    
+
     const ressources = {
         Health:
-        caracs[0].Constitution*10
-        + caracs[0].Force*4
-        + domainesgenerauxJoueur[0].niveau*3
-        + domainesgenerauxJoueur[1].niveau,
+            caracs[0].Constitution * 10
+            + caracs[0].Force * 4
+            + domainesgenerauxJoueur[0].niveau * 3
+            + domainesgenerauxJoueur[1].niveau,
 
 
         Endurance:
-        caracs[0].Constitution
-        + domainesgenerauxJoueur[0].niveau,
+            caracs[0].Constitution
+            + domainesgenerauxJoueur[0].niveau,
 
 
         Focus:
-        caracs[0].Volonté
-        +  domainesgenerauxJoueur[6].niveau
+            caracs[0].Volonté
+            + domainesgenerauxJoueur[6].niveau
     }
 
     const domainesSorted = [...domainesmagiquesJoueur].sort((a, b) => b.points - a.points);
