@@ -1,17 +1,60 @@
 import './Caractéristiques.css';
 
-export default function Caracteristiques(props) {
-    const { caracs, domainesgenerauxJoueur, traits } = props;
+const characteristicsToFilter = ["Constitution", "Force", "Agilité", "Furtivité", "Perception", "Intelligence", "Volonté", ""];
 
-    const totalStats = {
-        Constitution: caracs[0].Constitution + domainesgenerauxJoueur[0].niveau + 0,
-        Force: caracs[0].Force + domainesgenerauxJoueur[1].niveau + 0,
-        Agilite: caracs[0].Agilité + domainesgenerauxJoueur[2].niveau + 0,
-        Furtivite: caracs[0].Furtivité + domainesgenerauxJoueur[3].niveau + 0,
-        Perception: caracs[0].Perception + domainesgenerauxJoueur[4].niveau + 0,
-        Intelligence: caracs[0].Intelligence + domainesgenerauxJoueur[5].niveau + 0,
-        Volonte: caracs[0].Volonté + domainesgenerauxJoueur[6].niveau + 0
+class BonusFromTraitsList {
+    constructor(traits, caracs) {
+        this.bonusFromTraits = {};
+        for (const carac of caracs) {
+            this.bonusFromTraits[carac] = [];
+        }
+        traits.forEach(t => {
+            t.statsetbonus.forEach(sets => {
+                const listOfSets = Object.entries(sets);
+                for (const [stat, bonus] of listOfSets) {
+                    if (caracs.includes(stat) && !isNaN(bonus)) {
+                        this.bonusFromTraits[stat].push(new BonusFromTrait(t?.titre || '?', bonus))
+                    }
+                }
+            })
+        });
     }
+
+    getListForCarac(carac) {
+        return this.bonusFromTraits[carac];
+    }
+
+    getTotalForCarac(carac) {
+        return this.bonusFromTraits[carac]?.reduce((accumulator, bonus) => accumulator + bonus.value, 0);
+    }
+
+    toHtmlForCarac(carac) {
+        return <ul>
+            {this.bonusFromTraits[carac].map((bonus) => <li>{bonus?.toString()}</li>)}
+        </ul>
+    }
+}
+
+function formatBonus(bonus) {
+    if (isNaN(bonus)) {
+        return bonus;
+    }
+    return `${bonus >= 0 ? '+' : ''}${bonus}`;
+}
+
+class BonusFromTrait {
+    constructor(name, value) {
+        this.name = name;
+        this.value = value;
+    }
+
+    toString() {
+        return `${this.name} : ${formatBonus(this.value)}`;
+    }
+}
+
+export default function Caracteristiques({ caracs, domainesgenerauxJoueur, traits }) {
+
 
     const bonusTraits = {
         Constitution:
@@ -44,24 +87,17 @@ export default function Caracteristiques(props) {
             ],
     }
 
-    const characteristicsToFilter = ["Constitution", "Force", "Agilité", "Furtivité", "Perception", "Intelligence", "Volonté", ""];
+    const bonusFromTraits = new BonusFromTraitsList(traits, characteristicsToFilter);
 
-    const filteredTraits = traits.filter((trait) => {
-            return characteristicsToFilter.some((characteristic) => trait.statsetbonus[0][characteristic] !== undefined);
-        });
-
-    console.log(filteredTraits);
-    // .filter() parcourt chaque trait dans le tableau traits.
-    // Pour chaque trait, '.some()' est utilisé pour vérifier si au moins une des caractéristiques spécifiées dans characteristicsToFilter (c'est-à-dire characteristic) existe dans trait.statsetbonus[0].
-    // Si au moins une des caractéristiques existe dans trait.statsetbonus[0], '.some()' renvoie true pour ce trait, ce qui signifie que le trait est conservé dans le tableau résultant.
-    // Si aucune des caractéristiques n'existe dans trait.statsetbonus[0], '.some()' renvoie false pour ce trait, ce qui signifie que le trait est filtré et ne figure pas dans le tableau résultant.
-
-    // filteredTraits nous renvoie un tableau avec tous les traits concernés par les stats présentes dans characteristicsToFilter
-    // Donc maintenant, ce qu'on veut, c'est d'extraire les titres et les valeurs des traits, et de les mettre dans le tableau bonusTraits
-
-    const extractedTraits = 0;
-    
-
+    const totalStats = {
+        Constitution: caracs[0].Constitution + domainesgenerauxJoueur[0].niveau + 0 + bonusFromTraits.getTotalForCarac('Constitution'),
+        Force: caracs[0].Force + domainesgenerauxJoueur[1].niveau + 0 + bonusFromTraits.getTotalForCarac('Force'),
+        Agilite: caracs[0].Agilité + domainesgenerauxJoueur[2].niveau + 0 + bonusFromTraits.getTotalForCarac('Agilité'),
+        Furtivite: caracs[0].Furtivité + domainesgenerauxJoueur[3].niveau + 0 + bonusFromTraits.getTotalForCarac('Furtivité'),
+        Perception: caracs[0].Perception + domainesgenerauxJoueur[4].niveau + 0 + bonusFromTraits.getTotalForCarac('Perception'),
+        Intelligence: caracs[0].Intelligence + domainesgenerauxJoueur[5].niveau + 0 + bonusFromTraits.getTotalForCarac('Intelligence'),
+        Volonte: caracs[0].Volonté + domainesgenerauxJoueur[6].niveau + 0 + bonusFromTraits.getTotalForCarac('Volonté'),
+    }
 
     const headers = Object.keys(caracs[0]);
     const totalValues = Object.values(totalStats);
@@ -124,7 +160,9 @@ export default function Caracteristiques(props) {
                             <h4>Constitution</h4>
                             <li>Base : {caracs[0].Constitution}</li>
                             <li>Domaine : +{domainesgenerauxJoueur[0].niveau}</li>
-                            <li>Trait : +0</li>
+                            <li>Trait : {formatBonus(bonusFromTraits.getTotalForCarac('Constitution'))}
+                                <span style={{ opacity: 0.5 }}>{bonusFromTraits.toHtmlForCarac('Constitution')}</span>
+                            </li>
 
                             <li className="carac-detail-total">Total : {totalStats.Constitution}</li>
                         </ul>
@@ -133,7 +171,9 @@ export default function Caracteristiques(props) {
                             <h4>Force</h4>
                             <li>Base : {caracs[0].Force}</li>
                             <li>Domaine : +{domainesgenerauxJoueur[1].niveau}</li>
-                            <li>Trait : +0</li>
+                            <li>Trait : {formatBonus(bonusFromTraits.getTotalForCarac('Force'))}
+                                <span style={{ opacity: 0.5 }}>{bonusFromTraits.toHtmlForCarac('Force')}</span>
+                            </li>
 
                             <li className="carac-detail-total">Total : {totalStats.Force}</li>
                         </ul>
@@ -142,7 +182,9 @@ export default function Caracteristiques(props) {
                             <h4>Agilité</h4>
                             <li>Base : {caracs[0].Agilité}</li>
                             <li>Domaine : +{domainesgenerauxJoueur[2].niveau}</li>
-                            <li>Trait : +0</li>
+                            <li>Trait : {formatBonus(bonusFromTraits.getTotalForCarac('Agilité'))}
+                                <span style={{ opacity: 0.5 }}>{bonusFromTraits.toHtmlForCarac('Agilité')}</span>
+                            </li>
 
                             <li className="carac-detail-total">Total : {totalStats.Agilite}</li>
                         </ul>
@@ -151,7 +193,9 @@ export default function Caracteristiques(props) {
                             <h4>Furtivité</h4>
                             <li>Base : {caracs[0].Furtivité}</li>
                             <li>Domaine : +{domainesgenerauxJoueur[3].niveau}</li>
-                            <li>Trait : +0</li>
+                            <li>Trait : {formatBonus(bonusFromTraits.getTotalForCarac('Furtivité'))}
+                                <span style={{ opacity: 0.5 }}>{bonusFromTraits.toHtmlForCarac('Furtivité')}</span>
+                            </li>
 
                             <li className="carac-detail-total">Total : {totalStats.Furtivite}</li>
                         </ul>
@@ -160,7 +204,9 @@ export default function Caracteristiques(props) {
                             <h4>Perception</h4>
                             <li>Base : {caracs[0].Perception}</li>
                             <li>Domaine : +{domainesgenerauxJoueur[4].niveau}</li>
-                            <li>Trait : +0</li>
+                            <li>Trait : {formatBonus(bonusFromTraits.getTotalForCarac('Perception'))}
+                                <span style={{ opacity: 0.5 }}>{bonusFromTraits.toHtmlForCarac('Perception')}</span>
+                            </li>
 
                             <li className="carac-detail-total">Total : {totalStats.Perception}</li>
                         </ul>
@@ -174,7 +220,9 @@ export default function Caracteristiques(props) {
                             <h4>Intelligence</h4>
                             <li>Base : {caracs[0].Intelligence}</li>
                             <li>Domaine : +{domainesgenerauxJoueur[5].niveau}</li>
-                            <li>Trait : +0</li>
+                            <li>Trait : {formatBonus(bonusFromTraits.getTotalForCarac('Intelligence'))}
+                                <span style={{ opacity: 0.5 }}>{bonusFromTraits.toHtmlForCarac('Intelligence')}</span>
+                            </li>
 
                             <li className="carac-detail-total">Total : {totalStats.Intelligence}</li>
                         </ul>
@@ -183,7 +231,9 @@ export default function Caracteristiques(props) {
                             <h4>Volonté</h4>
                             <li>Base : {caracs[0].Volonté}</li>
                             <li>Domaine : +{domainesgenerauxJoueur[6].niveau}</li>
-                            <li>Trait : +0</li>
+                            <li>Trait : {formatBonus(bonusFromTraits.getTotalForCarac('Volonté'))}
+                                <span style={{ opacity: 0.5 }}>{bonusFromTraits.toHtmlForCarac('Volonté')}</span>
+                            </li>
 
                             <li className="carac-detail-total">Total : {totalStats.Volonte}</li>
                         </ul>

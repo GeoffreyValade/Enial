@@ -22,7 +22,7 @@
     display: inline-flex;
     flex-direction: row;
     margin: auto;
-    width: 40%;
+    width: 60%;
     justify-content: space-between;
     font-size: 24px;
 }

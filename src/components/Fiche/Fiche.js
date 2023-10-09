@@ -14,40 +14,41 @@ import Inventaire from "./Feuilles/Inventaire/Inventaire"
 import SortsEtTechniques from "./Feuilles/SortsEtTechniques/SortsEtTechniques"
 import Finances from "./Feuilles/Finances/Finances"
 
-
+const feuilles = [
+    { nom: 'recapitulatif', label: 'Récapitulatif' },
+    { nom: 'inforp', label: 'Info RP' },
+    { nom: 'caracteristiques', label: 'Caractéristiques' },
+    { nom: 'traits', label: 'Traits' },
+    { nom: 'domaines', label: 'Domaines' },
+    { nom: 'sortsettechniques', label: 'Sorts et techniques' },
+    { nom: 'inventaire', label: 'Inventaire' },
+    { nom: 'finances', label: 'Finances' },
+];
 
 export default function Fiche() {
     const { players } = useContext(PlayersContext);
+    const { id } = useParams();
     const [ongletActif, setOngletActif] = useState('recapitulatif');
 
     const afficherFeuille = (onglet) => {
         setOngletActif(onglet);
     };
 
-    const { id } = useParams();
-
     for (var index = 0; index < players.length; index++) {
         if (players[index].id === id) {
+
 
             return (
                 <div className="boutons-et-fiches">
                     <div className="boutons-fiche">
 
-                        <div className={`bouton-container ${ongletActif === 'recapitulatif' ? 'selected' : ''}`}><button className="bouton-unique-fiche" onClick={() => afficherFeuille('recapitulatif')}>Récapitulatif</button></div>
-
-                        <div className={`bouton-container ${ongletActif === 'inforp' ? 'selected' : ''}`}><button className="bouton-unique-fiche" onClick={() => afficherFeuille('inforp')}>Info RP</button></div>
-
-                        <div className={`bouton-container ${ongletActif === 'caracteristiques' ? 'selected' : ''}`}><button className="bouton-unique-fiche" onClick={() => afficherFeuille('caracteristiques')}>Caractéristiques</button></div>
-
-                        <div className={`bouton-container ${ongletActif === 'traits' ? 'selected' : ''}`}><button className="bouton-unique-fiche" onClick={() => afficherFeuille('traits')}>Traits</button></div>
-
-                        <div className={`bouton-container ${ongletActif === 'domaines' ? 'selected' : ''}`}><button className="bouton-unique-fiche" onClick={() => afficherFeuille('domaines')}>Domaines</button></div>
-
-                        <div className={`bouton-container ${ongletActif === 'sortsettechniques' ? 'selected' : ''}`}><button className="bouton-unique-fiche" onClick={() => afficherFeuille('sortsettechniques')}>Sorts et techniques</button></div>
-
-                        <div className={`bouton-container ${ongletActif === 'inventaire' ? 'selected' : ''}`}><button className="bouton-unique-fiche" onClick={() => afficherFeuille('inventaire')}>Inventaire</button></div>
-
-                        <div className={`bouton-container ${ongletActif === 'finances' ? 'selected' : ''}`}><button className="bouton-unique-fiche" onClick={() => afficherFeuille('finances')}>Finances</button></div>
+                        {feuilles.map(feuille =>
+                            <div className={`bouton-container ${ongletActif === feuille.nom ? 'selected' : ''}`}>
+                                <button className="bouton-unique-fiche" onClick={() => afficherFeuille(feuille.nom)}>
+                                    {feuille.label}
+                                </button>
+                            </div>
+                        )}
 
                     </div>
 

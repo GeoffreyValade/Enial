@@ -4,9 +4,7 @@ import DomaineMagique from './DomaineMagique.js';
 import DomaineGeneral from './DomaineGeneral.js';
 import indexmaitrises from '../../../../datas/indexmaitrises.json';
 
-export default function Domaines(props) {
-    const { domainesmagiquesJoueur, domainesgenerauxJoueur } = props;
-
+export default function Domaines({ domainesmagiquesJoueur, domainesgenerauxJoueur }) {
     const obtenirNiveau = (points) => {
         let niveauPrecedent = null;
 
