@@ -5,7 +5,7 @@ import DomaineGeneral from './DomaineGeneral.js';
 import indexmaitrises from '../../../../datas/indexmaitrises.json';
 
 export default function Domaines({ player }) {
-    const { domainesmagiques, domainesgeneraux } = player;
+    const { domainesMagiques, domainesGeneraux } = player;
 
     const obtenirNiveau = (points) => {
         let niveauPrecedent = null;
@@ -43,7 +43,7 @@ export default function Domaines({ player }) {
         <div className="sheet">
             <h1 className="sheet-title">Domaines</h1>
             <div className="domainesjoueur-container">
-                {domainesmagiques
+                {domainesMagiques
                     .filter((domaineMagiqueJoueur) => obtenirNiveau(domaineMagiqueJoueur.points) !== 0)
                     .map((domaineMagiqueJoueur, index) => (
                         <div key={index} className="domaine-unique-container">
@@ -59,7 +59,7 @@ export default function Domaines({ player }) {
 
             <h2>Domaines niveau 0</h2>
             <div className="domaines0joueur-container">
-                {domainesmagiques
+                {domainesMagiques
                     .filter((domaineMagiqueJoueur) => obtenirNiveau(domaineMagiqueJoueur.points) === 0)
                     .map((domaineMagiqueJoueur, index) => (
                         <div key={index} className="domaine-unique-container">
@@ -76,7 +76,7 @@ export default function Domaines({ player }) {
 
             <h2>Domaines généraux</h2>
             <div className="domainesgenerauxjoueur-container">
-                {domainesgeneraux
+                {domainesGeneraux
                     .filter((domaineGeneralJoueur) => obtenirNiveauGeneral(domaineGeneralJoueur.points) !== 0)
                     .map((domaineGeneralJoueur, index) => (
                         <div key={index} className="domaine-unique-container">

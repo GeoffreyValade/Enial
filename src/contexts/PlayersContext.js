@@ -1,6 +1,6 @@
 import { createContext, useState } from 'react';
 import playersData from '../datas/joueurs.json';
-//import Player from '../classes/Player.js';
+import Player from '../classes/player';
 
 export const PlayersContext = createContext({})
 
@@ -15,6 +15,5 @@ export default function PlayersProvider({ children }) {
 }
 
 function getPlayers() {
-    return playersData;
-    //return playersData.map(playerData => new Player(playerData));
+    return playersData.map(playerData => new Player(playerData));
 }

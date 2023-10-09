@@ -1,7 +1,11 @@
 //import playersData from '../../datas/joueurs.json';
+import Trait from './Trait.js';
+import StatModifier from './StatModifier.js';
+import StatModifierList from './StatModifierList.js';
 
-class Player {
+export default class Player {
     constructor(playersData) {
+        this.id = playersData.id;
         this.joueur = playersData.joueur;
         this.nom = playersData.nom;
         this.prenom = playersData.prenom;
@@ -12,9 +16,17 @@ class Player {
         this.resumerp = playersData.resumerp;
         this.description = playersData.description;
         this.portrait = playersData.portrait;
-        this.caracsprincipales = playersData.caracs[0];
-        this.traits = playersData.traits;
-        this.domainesgenerauxJoueur = playersData.domainesgenerauxJoueur;
-        this.domainesmagiquesJoueur = playersData.domainesmagiquesJoueur;
+        this.caracsPrincipales = playersData.caracs[0];
+        /** @type {Trait[]} */
+        this.traits = playersData.traits.map(t => new Trait(t.id, t.titre, t.description, t.statsetbonus));
+        this.domainesGeneraux = playersData.domainesgeneraux;
+        this.domainesMagiques = playersData.domainesmagiques;
+
+        // make StatModifierList
+        const fromTraits = this.traits.map(t => t.getStatModifierList());
+        /** @type {StatModifier[]} */
+        const allModifiers = [].concat(...fromTraits);
+        /** @type {StatModifierList} */
+        this.statModifiers = new StatModifierList(allModifiers);
     }
 }

@@ -5,38 +5,38 @@ import indexmaitrises from '../../../../datas/indexmaitrises.json';
 
 export default function Recapitulatif({ player }) {
 
-    const { domainesgeneraux, domainesmagiques, portrait, caracs, prenom, nom, surnom, age, race, sexe, resumerp, description } = player;
+    const { domainesGeneraux, domainesMagiques, portrait, caracsPrincipales, prenom, nom, surnom, age, race, sexe, resumerp, description } = player;
 
     const totalStats = {
-        Constitution: caracs[0].Constitution + domainesgeneraux[0].niveau + 0,
-        Force: caracs[0].Force + domainesgeneraux[1].niveau + 0,
-        Agilite: caracs[0].Agilité + domainesgeneraux[2].niveau + 0,
-        Furtivite: caracs[0].Furtivité + domainesgeneraux[3].niveau + 0,
-        Perception: caracs[0].Perception + domainesgeneraux[4].niveau + 0,
-        Intelligence: caracs[0].Intelligence + domainesgeneraux[5].niveau + 0,
-        Volonte: caracs[0].Volonté + domainesgeneraux[6].niveau + 0
+        Constitution: caracsPrincipales.Constitution + domainesGeneraux[0].niveau + 0,
+        Force: caracsPrincipales.Force + domainesGeneraux[1].niveau + 0,
+        Agilite: caracsPrincipales.Agilité + domainesGeneraux[2].niveau + 0,
+        Furtivite: caracsPrincipales.Furtivité + domainesGeneraux[3].niveau + 0,
+        Perception: caracsPrincipales.Perception + domainesGeneraux[4].niveau + 0,
+        Intelligence: caracsPrincipales.Intelligence + domainesGeneraux[5].niveau + 0,
+        Volonte: caracsPrincipales.Volonté + domainesGeneraux[6].niveau + 0
     }
 
 
     const ressources = {
         Health:
-            caracs[0].Constitution * 10
-            + caracs[0].Force * 4
-            + domainesgeneraux[0].niveau * 3
-            + domainesgeneraux[1].niveau,
+            caracsPrincipales.Constitution * 10
+            + caracsPrincipales.Force * 4
+            + domainesGeneraux[0].niveau * 3
+            + domainesGeneraux[1].niveau,
 
 
         Endurance:
-            caracs[0].Constitution
-            + domainesgeneraux[0].niveau,
+            caracsPrincipales.Constitution
+            + domainesGeneraux[0].niveau,
 
 
         Focus:
-            caracs[0].Volonté
-            + domainesgeneraux[6].niveau
+            caracsPrincipales.Volonté
+            + domainesGeneraux[6].niveau
     }
 
-    const domainesSorted = [...domainesmagiques].sort((a, b) => b.points - a.points);
+    const domainesSorted = [...domainesMagiques].sort((a, b) => b.points - a.points);
 
     const domainesBest = domainesSorted.slice(0, 3);
 
@@ -135,8 +135,8 @@ export default function Recapitulatif({ player }) {
                                 <tr>
                                     <th><div className="align-table-content"><GiMuscleFat color="yellow" /> CON</div></th>
                                     <td className="table-total">{totalStats.Constitution}</td>
-                                    <td>{caracs[0].Constitution}</td>
-                                    <td>+{domainesgeneraux[0].niveau}</td>
+                                    <td>{caracsPrincipales.Constitution}</td>
+                                    <td>+{domainesGeneraux[0].niveau}</td>
                                     <td>[+b]</td>
                                     <td>[+c]</td>
                                     <td>[+d]</td>
@@ -145,8 +145,8 @@ export default function Recapitulatif({ player }) {
                                 <tr>
                                     <th><div className="align-table-content"><GiMuscleUp color="red" /> FOR</div></th>
                                     <td className="table-total">{totalStats.Force}</td>
-                                    <td>{caracs[0].Force}</td>
-                                    <td>+{domainesgeneraux[1].niveau}</td>
+                                    <td>{caracsPrincipales.Force}</td>
+                                    <td>+{domainesGeneraux[1].niveau}</td>
                                     <td>[+b]</td>
                                     <td>[+c]</td>
                                     <td>[+d]</td>
@@ -155,8 +155,8 @@ export default function Recapitulatif({ player }) {
                                 <tr>
                                     <th><div className="align-table-content"><GiRun color="green" /> AGI</div></th>
                                     <td className="table-total">{totalStats.Agilite}</td>
-                                    <td>{caracs[0].Agilité}</td>
-                                    <td>+{domainesgeneraux[2].niveau}</td>
+                                    <td>{caracsPrincipales.Agilité}</td>
+                                    <td>+{domainesGeneraux[2].niveau}</td>
                                     <td>[+b]</td>
                                     <td>[+c]</td>
                                     <td>[+d]</td>
@@ -165,8 +165,8 @@ export default function Recapitulatif({ player }) {
                                 <tr>
                                     <th><div className="align-table-content"><GiHood /> FURT</div></th>
                                     <td className="table-total">{totalStats.Furtivite}</td>
-                                    <td>{caracs[0].Furtivité}</td>
-                                    <td>+{domainesgeneraux[3].niveau}</td>
+                                    <td>{caracsPrincipales.Furtivité}</td>
+                                    <td>+{domainesGeneraux[3].niveau}</td>
                                     <td>[+b]</td>
                                     <td>[+c]</td>
                                     <td>[+d]</td>
@@ -175,8 +175,8 @@ export default function Recapitulatif({ player }) {
                                 <tr>
                                     <th><div className="align-table-content"><BsEyeFill color="grey" /> PERC</div></th>
                                     <td className="table-total">{totalStats.Perception}</td>
-                                    <td>{caracs[0].Perception}</td>
-                                    <td>+{domainesgeneraux[4].niveau}</td>
+                                    <td>{caracsPrincipales.Perception}</td>
+                                    <td>+{domainesGeneraux[4].niveau}</td>
                                     <td>[+b]</td>
                                     <td>[+c]</td>
                                     <td>[+d]</td>
@@ -185,8 +185,8 @@ export default function Recapitulatif({ player }) {
                                 <tr>
                                     <th><div className="align-table-content"><GiBrain color="blue" /> INT</div></th>
                                     <td className="table-total">{totalStats.Intelligence}</td>
-                                    <td>{caracs[0].Intelligence}</td>
-                                    <td>+{domainesgeneraux[5].niveau}</td>
+                                    <td>{caracsPrincipales.Intelligence}</td>
+                                    <td>+{domainesGeneraux[5].niveau}</td>
                                     <td>[+b]</td>
                                     <td>[+c]</td>
                                     <td>[+d]</td>
@@ -195,8 +195,8 @@ export default function Recapitulatif({ player }) {
                                 <tr>
                                     <th><div className="align-table-content"><GiFist color="indigo" /> VOL</div></th>
                                     <td className="table-total">{totalStats.Volonte}</td>
-                                    <td>{caracs[0].Volonté}</td>
-                                    <td>+{domainesgeneraux[6].niveau}</td>
+                                    <td>{caracsPrincipales.Volonté}</td>
+                                    <td>+{domainesGeneraux[6].niveau}</td>
                                     <td>[+b]</td>
                                     <td>[+c]</td>
                                     <td>[+d]</td>
