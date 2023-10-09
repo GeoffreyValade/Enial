@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import './Fiche.css';
-import PlayersData from '../../datas/joueurs.json';
+import { PlayersContext } from '../../contexts/PlayersContext';
 import { useParams } from 'react-router-dom'
 
 import NotFound from "../NotFound/NotFound"
@@ -17,6 +17,7 @@ import Finances from "./Feuilles/Finances/Finances"
 
 
 export default function Fiche() {
+    const { players } = useContext(PlayersContext);
     const [ongletActif, setOngletActif] = useState('recapitulatif');
 
     const afficherFeuille = (onglet) => {
@@ -25,8 +26,8 @@ export default function Fiche() {
 
     const { id } = useParams();
 
-    for (var index = 0; index < PlayersData.length; index++) {
-        if (PlayersData[index].id === id) {
+    for (var index = 0; index < players.length; index++) {
+        if (players[index].id === id) {
 
             return (
                 <div className="boutons-et-fiches">
@@ -53,43 +54,43 @@ export default function Fiche() {
 
                     {ongletActif === 'recapitulatif' &&
                         <Recapitulatif
-                            caracs={PlayersData[index].caracs}
-                            prenom={PlayersData[index].prenom}
-                            nom={PlayersData[index].nom}
-                            surnom={PlayersData[index].surnom}
-                            age={PlayersData[index].age}
-                            resumerp={PlayersData[index].resumerp}
-                            description={PlayersData[index].description}
-                            portrait={PlayersData[index].portrait}
-                            race={PlayersData[index].race}
-                            sexe={PlayersData[index].sexe}
-                            domainesmagiquesJoueur={PlayersData[index].domainesmagiques}
-                            domainesgenerauxJoueur={PlayersData[index].domainesgeneraux}
+                            caracs={players[index].caracs}
+                            prenom={players[index].prenom}
+                            nom={players[index].nom}
+                            surnom={players[index].surnom}
+                            age={players[index].age}
+                            resumerp={players[index].resumerp}
+                            description={players[index].description}
+                            portrait={players[index].portrait}
+                            race={players[index].race}
+                            sexe={players[index].sexe}
+                            domainesmagiquesJoueur={players[index].domainesmagiques}
+                            domainesgenerauxJoueur={players[index].domainesgeneraux}
                         />}
 
                     {ongletActif === 'inforp' &&
                         <InfoRP
-                            prenom={PlayersData[index].prenom}
-                            nom={PlayersData[index].nom}
-                            surnom={PlayersData[index].surnom}
-                            age={PlayersData[index].age} />}
+                            prenom={players[index].prenom}
+                            nom={players[index].nom}
+                            surnom={players[index].surnom}
+                            age={players[index].age} />}
 
                     {ongletActif === 'caracteristiques' &&
                         <Caracteristiques
-                            caracs={PlayersData[index].caracs}
-                            domainesgenerauxJoueur={PlayersData[index].domainesgeneraux}
-                            traits={PlayersData[index].traits}
+                            caracs={players[index].caracs}
+                            domainesgenerauxJoueur={players[index].domainesgeneraux}
+                            traits={players[index].traits}
                         />}
 
                     {ongletActif === 'traits' &&
                         <Traits
-                            traits={PlayersData[index].traits}
+                            traits={players[index].traits}
                         />}
 
                     {ongletActif === 'domaines' &&
                         <Domaines
-                            domainesmagiquesJoueur={PlayersData[index].domainesmagiques}
-                            domainesgenerauxJoueur={PlayersData[index].domainesgeneraux}
+                            domainesmagiquesJoueur={players[index].domainesmagiques}
+                            domainesgenerauxJoueur={players[index].domainesgeneraux}
                         />}
 
                     {ongletActif === 'sortsettechniques' &&

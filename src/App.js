@@ -10,28 +10,28 @@ import Party from "./components/Party/Party"
 
 import Navbar from './components/Navbar/Navbar'
 import Footer from "./components/Footer/Footer"
+import PlayersProvider from './contexts/PlayersContext';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <div className="content-container">
-        <Navbar />
-        <Routes>
-          <Route path="/rules" element={<Rules />} />
-          <Route path="/magicrules" element={<Magicrules />} />
-          <Route path="/oeil" element={<Oeil />} />
-          <Route path="/characters" element={<Characters />} />
-          <Route path="/characters/:id" element={<Fiche />} />
-          <Route path="/party" element={<Party />} />
-        </Routes>
+    <PlayersProvider>
+      <div className="App">
+        <div className="content-container">
+          <Navbar />
+          <Routes>
+            <Route path="/rules" element={<Rules />} />
+            <Route path="/magicrules" element={<Magicrules />} />
+            <Route path="/oeil" element={<Oeil />} />
+            <Route path="/characters" element={<Characters />} />
+            <Route path="/characters/:id" element={<Fiche />} />
+            <Route path="/party" element={<Party />} />
+          </Routes>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </PlayersProvider>
   );
 }
-
-export default App;
-
 
 //   <Link to="/rules">Règles : générales</Link>
 //   <Link to="/magicrules">Règles : Magie des arcanes</Link>
