@@ -1,6 +1,6 @@
 // Nous sommes sur la page où tous les personnages apparaissent
 
-import React from 'react';
+import { useContext } from 'react';
 import './Characters.css';
 import Portrait from '../Portrait/Portrait';
 import { PlayersContext } from '../../contexts/PlayersContext';

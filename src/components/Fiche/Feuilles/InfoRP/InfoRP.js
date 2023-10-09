@@ -1,7 +1,10 @@
 import './InfoRP.css';
 
 
-export default function InfoRP ({prenom, nom, surnom, age}) {
+export default function InfoRP({ player }) {
+
+    const { prenom, nom, surnom, age } = player;
+
     return (
         <div className="sheet">
             <h1 className="sheet-title">Général</h1>

@@ -1,6 +1,6 @@
 import { createContext, useState } from 'react';
 import playersData from '../datas/joueurs.json';
-import Player from '../classes/Player.js';
+//import Player from '../classes/Player.js';
 
 export const PlayersContext = createContext({})
 

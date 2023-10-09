@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import { useContext, useState } from 'react';
 import './Fiche.css';
 import { PlayersContext } from '../../contexts/PlayersContext';
 import { useParams } from 'react-router-dom'
@@ -15,100 +15,46 @@ import SortsEtTechniques from "./Feuilles/SortsEtTechniques/SortsEtTechniques"
 import Finances from "./Feuilles/Finances/Finances"
 
 const feuilles = [
-    { nom: 'recapitulatif', label: 'Récapitulatif' },
-    { nom: 'inforp', label: 'Info RP' },
-    { nom: 'caracteristiques', label: 'Caractéristiques' },
-    { nom: 'traits', label: 'Traits' },
-    { nom: 'domaines', label: 'Domaines' },
-    { nom: 'sortsettechniques', label: 'Sorts et techniques' },
-    { nom: 'inventaire', label: 'Inventaire' },
-    { nom: 'finances', label: 'Finances' },
-];
+    { label: 'Récapitulatif', component: (p) => <Recapitulatif player={p} /> },
+    { label: 'RP', component: (p) => <InfoRP player={p} /> },
+    { label: 'Caractéristiques', component: (p) => <Caracteristiques player={p} /> },
+    { label: 'Traits', component: (p) => <Traits player={p} /> },
+    { label: 'Domaines', component: (p) => <Domaines player={p} /> },
+    { label: 'techniques', component: (p) => <SortsEtTechniques player={p} /> },
+    { label: 'Inventaire', component: (p) => <Inventaire player={p} /> },
+    { label: 'Finances', component: (p) => <Finances player={p} /> },
+]
+
+const parDefaut = 0;
 
 export default function Fiche() {
     const { players } = useContext(PlayersContext);
     const { id } = useParams();
-    const [ongletActif, setOngletActif] = useState('recapitulatif');
+    const player = players?.find(p => p.id === id);
 
-    const afficherFeuille = (onglet) => {
-        setOngletActif(onglet);
-    };
+    const [feuilleActive, setFeuilleActive] = useState(feuilles?.[parDefaut]);
 
-    for (var index = 0; index < players.length; index++) {
-        if (players[index].id === id) {
+    if (!player) return <NotFound />
 
 
-            return (
-                <div className="boutons-et-fiches">
-                    <div className="boutons-fiche">
-
-                        {feuilles.map(feuille =>
-                            <div className={`bouton-container ${ongletActif === feuille.nom ? 'selected' : ''}`}>
-                                <button className="bouton-unique-fiche" onClick={() => afficherFeuille(feuille.nom)}>
-                                    {feuille.label}
-                                </button>
-                            </div>
-                        )}
-
+    return (
+        <div className="boutons-et-fiches">
+            <div className="boutons-fiche">
+                
+                {/** afficher un bouton pour chaque feuille */}
+                {feuilles.map(f =>
+                    <div className={`bouton-container ${f === feuilleActive ? 'selected' : ''}`}>
+                        <button className="bouton-unique-fiche" onClick={() => setFeuilleActive(f)}>
+                            {f.label}
+                        </button>
                     </div>
+                )}
 
+            </div>
 
-                    {ongletActif === 'recapitulatif' &&
-                        <Recapitulatif
-                            caracs={players[index].caracs}
-                            prenom={players[index].prenom}
-                            nom={players[index].nom}
-                            surnom={players[index].surnom}
-                            age={players[index].age}
-                            resumerp={players[index].resumerp}
-                            description={players[index].description}
-                            portrait={players[index].portrait}
-                            race={players[index].race}
-                            sexe={players[index].sexe}
-                            domainesmagiquesJoueur={players[index].domainesmagiques}
-                            domainesgenerauxJoueur={players[index].domainesgeneraux}
-                        />}
+            {/** afficher la feuille active */}
+            {feuilleActive?.component(player)}
 
-                    {ongletActif === 'inforp' &&
-                        <InfoRP
-                            prenom={players[index].prenom}
-                            nom={players[index].nom}
-                            surnom={players[index].surnom}
-                            age={players[index].age} />}
-
-                    {ongletActif === 'caracteristiques' &&
-                        <Caracteristiques
-                            caracs={players[index].caracs}
-                            domainesgenerauxJoueur={players[index].domainesgeneraux}
-                            traits={players[index].traits}
-                        />}
-
-                    {ongletActif === 'traits' &&
-                        <Traits
-                            traits={players[index].traits}
-                        />}
-
-                    {ongletActif === 'domaines' &&
-                        <Domaines
-                            domainesmagiquesJoueur={players[index].domainesmagiques}
-                            domainesgenerauxJoueur={players[index].domainesgeneraux}
-                        />}
-
-                    {ongletActif === 'sortsettechniques' &&
-                        <SortsEtTechniques
-                        />}
-
-                    {ongletActif === 'inventaire' &&
-                        <Inventaire
-                        />}
-
-                    {ongletActif === 'finances' &&
-                        <Finances
-                        />}
-
-                </div>
-            );
-        };
-    };
-    return (<NotFound />)
+        </div>
+    );
 }
