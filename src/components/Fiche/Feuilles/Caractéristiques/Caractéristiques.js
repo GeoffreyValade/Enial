@@ -53,7 +53,7 @@ class BonusFromTrait {
 }
 
 export default function Caracteristiques({ player }) {
-    const { caracs, domainesgeneraux, traits } = { player };
+    const { caracs, domainesgeneraux, traits } = player;
 
     const bonusTraits = {
         Constitution:
