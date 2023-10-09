@@ -1,6 +1,9 @@
 import './SortsEtTechniques.css';
 
-export default function SortsEtTechniques({ prenom }) {
+export default function SortsEtTechniques({ player }) {
+
+    const { prenom } = player;
+
     return (
         <div className="sheet">
             <h1 className="sheet-title">Sorts et techniques</h1>
