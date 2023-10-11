@@ -86,21 +86,18 @@
                 "title": "Puissance musculaire",
                 "points": 0,
                 "niveau": 0
-
             },
             {
                 "id": "3agilite",
                 "title": "Souplesse et précision",
                 "points": 100,
                 "niveau": 1
-
             },
             {
                 "id": "4discretion",
                 "title": "Art de la discrétion",
                 "points": 100,
                 "niveau": 1
-
             },
             {
                 "id": "5perception",
