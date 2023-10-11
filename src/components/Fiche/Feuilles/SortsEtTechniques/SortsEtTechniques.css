@@ -1,0 +1,73 @@
+.skills-sheet-container {
+    display: inline-flex;
+}
+
+.left-container {
+    display: inline-flex;
+    flex-direction: column;
+    max-height: 900px;
+    width: 30%;
+
+    border: 1px black solid
+}
+
+.skills-selection-btn {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 12px auto 12px auto;
+    max-height: 41px;
+    min-height: 41px;
+}
+
+.skills-selection-btn button {
+    border-radius: 0px;
+    border: 0px;
+    font-size: 20px;
+    color: rgb(225, 225, 48);
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 1);
+    background-image: url("../../../../assets/button.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 0, 0, 0);
+    width: 40%;
+    transition: bottom 1s ease 0s;
+    transition: box-shadow 0.1s ease 0s;
+    border-radius: 7px;
+}
+
+.skills-selection-btn button:hover {
+    box-shadow: 0px 0px 10px rgba(255, 255, 0);
+}
+
+.skills-selection-btn .selected {
+    transform: scale(0.75)
+}
+
+.skills-selection-btn .selected:hover {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+
+.magic-container,
+.general-container {
+    display: inline-flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+    gap: 30px;
+    border: 1px blue solid
+}
+
+.spell-container {
+    width: 90%;
+    min-height: 200px;
+    margin: 10px auto 10px auto;
+    border: 1px red solid;
+}
+
+.skill-description-container {
+    width: 70%;
+    height: auto;
+}

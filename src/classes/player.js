@@ -1,5 +1,3 @@
-//import playersData from '../../datas/joueurs.json';
-
 class Player {
     constructor(playersData) {
         this.joueur = playersData.joueur;
@@ -12,8 +10,11 @@ class Player {
         this.resumerp = playersData.resumerp;
         this.description = playersData.description;
         this.portrait = playersData.portrait;
+
         this.caracsprincipales = playersData.caracs[0];
+
         this.traits = playersData.traits;
+
         this.domainesgenerauxJoueur = playersData.domainesgenerauxJoueur;
         this.domainesmagiquesJoueur = playersData.domainesmagiquesJoueur;
     }

@@ -50,7 +50,7 @@
 }
 
 
-.selected {
+.boutons-fiche .selected {
     background-color: rgba(255, 0, 0, 0);
     bottom: -10px;
     transform: scale(0.98);
@@ -58,7 +58,7 @@
     align-self: flex-end;
 }
 
-.selected:hover {
+.boutons-fiche .selected:hover {
     box-shadow: 0px 0px 0px rgba(255, 255, 255, 0)
 }
 
