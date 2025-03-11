@@ -1,0 +1,94 @@
+.rules-skills-sheet-container {
+    display: inline-flex;
+    flex-direction: column;
+    width:95%;
+    margin:auto;
+    gap:40px;
+}
+
+.rules-filters-container {
+    display: inline-flex;
+    flex-direction: column;
+    width:calc(100% - 8px);
+    height:auto;
+    background-color: grey;
+    border: 4px black solid
+}
+
+.rules-research-input-container {
+    margin: 15px;
+}
+
+.rules-research-input-container input {
+    width: 180px;
+    height: 18px;
+    border-radius: 2px;
+    background-color: rgb(201, 201, 201);
+    border: 1px black solid;
+}
+
+.rules-research-input-container input:focus {
+    outline-style: none;
+    background-color: white;
+}
+
+.rules-magic-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 30px;
+    /*overflow: scroll;
+    overflow-x: hidden;*/
+}
+
+.rules-magic-container a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.rules-magic-container h2 {
+    display: flex;
+    font-size:28px;
+    margin-left:20px;
+}
+
+.rules-magic-container ul {
+    margin: 0;
+    padding: 0;
+}
+
+.rules-magic-container li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    width:100%;
+}
+
+.rules-displayed-skills{
+    width:100%;
+    gap:20px;
+    display:inline-flex;
+    flex-direction: column;
+}
+
+.rules-container-unique-spell{
+    width:100%;
+    display:inline-flex;
+    border-bottom:1px solid rgb(117, 117, 117);
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rules-container-unique-spell:hover {
+    background-color: rgba(255, 255, 255, 0.388);
+    color:rgb(255, 0, 0);
+}
+
+#rules-spell-label{
+    font-size: 22px;
+    justify-content: start;
+    padding-left:30px;
+}

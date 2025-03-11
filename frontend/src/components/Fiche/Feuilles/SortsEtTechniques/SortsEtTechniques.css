@@ -1,0 +1,125 @@
+.skills-sheet-container {
+    display: inline-flex;
+    width:95%;
+    margin:auto;
+}
+
+.skills-list-container {
+    display: inline-flex;
+    flex-direction: column;
+    width:100%;
+    height:auto;
+    background-color: grey;
+    border: 4px black solid
+}
+
+.skills-selection-btn {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:50px;
+    width: 100%;
+    margin: 12px auto 12px auto;
+    max-height: 51px;
+    min-height: 51px;
+}
+
+.skills-selection-btn button {
+    border-radius: 0px;
+    border: 0px;
+    font-size: 20px;
+    color: rgb(225, 225, 48);
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 1);
+    background-image: url("../../../../assets/button.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 0, 0, 0);
+    width: 94%;
+    height: 78%;
+    transition: box-shadow 0.1s ease 0s;
+    border-radius: 7px;
+}
+
+.skills-selection-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px;
+    border: 0px;
+    background-image: url("../../../../assets/backgroundbutton.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 0, 0, 0);
+    width: 200px;
+    transition: box-shadow 0.1s ease 0s;
+    border-radius: 7px;
+}
+
+.skills-selection-btn button:hover {
+    box-shadow: 0px 0px 10px rgba(255, 255, 0);
+}
+
+.skills-selection-btn .selected {
+    width: 88%;
+    height: 64%;
+    font-size: 18px;
+    color: rgb(171, 171, 38);
+}
+
+.skills-selection-btn .selected:hover {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.research-skills-container {
+    margin: 15px;
+}
+
+.research-skills-container input {
+    width: 180px;
+    height: 18px;
+    border-radius: 2px;
+    background-color: rgb(201, 201, 201);
+    border: 1px black solid;
+}
+
+.research-skills-container input:focus {
+    outline-style: none;
+    background-color: white;
+}
+
+.magic-container,
+.general-container {
+    display: inline-flex;
+    flex-direction: column;
+    /*overflow: scroll;
+    overflow-x: hidden;*/
+    gap: 30px;
+    height: auto;
+}
+
+.spell-container, .techn-container {
+    width: 90%;
+    min-height: 80px;
+    margin: 10px auto 10px auto;
+}
+
+.spell-container{
+    background-color: rgb(179, 157, 192);
+}
+
+.techn-container{
+    background-color: rgba(202, 193, 140, 0.997);
+}
+
+.skill-description-container {
+    width: 70%;
+    height: auto;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.skill-description-wrapper{
+    width:95%;
+    height:auto;
+    border:3px black solid;
+}
