@@ -1,0 +1,1011 @@
+[
+    {
+        "id": "653ae9f4a915baf51a999f3b",
+        "joueur": "Geoffrey",
+        "prenom": "Benrig",
+        "nom": "Front-de-Pierre",
+        "surnom": "Ben",
+        "age": "37",
+        "description": "Vous avez à faire à un nain aux traits assez jeunes. Si on enlevait la barbe, on lui donnerait 31 ou 32 ans, à l'échelle d'un homme. Votre copain barbu à l'allure peu bourrue, pour un nain n'est pas bien massif. Il n'a pas la carrure des plus actifs.",
+        "resumerp": "Quelques semaines après avoir été embauché chez un enchanteur de prestige à Forgefer, Benrig a malencontreusement cassé un objet de valeur. Suite à ces faits, il a été renvoyé par son mentor. Les autres enchanteurs et même les plus miteux antiquaires de la cité avaient tous eu vent de cet accident provoqué par le jeune nain, refusant catégoriquement de l'embaucher. A court de solutions, Benrig se rabattu sur des emplois alimentaires, abandonnant de fait ses projets d'études ésotériques dans une grande frustration.",
+        "race": "Nain",
+        "caracs": [
+            {
+                "Constitution": -2,
+                "Force": -2,
+                "Agilité": 0,
+                "Furtivité": 0,
+                "Perception": 3,
+                "Intelligence": 3,
+                "Volonté": 3
+            }
+        ],
+        "inforp": {
+            "Titre01" : "Bonjour, je suis un contenu récupéré dans la BDD : ) 0.1",
+            "Titre02" : "Bonjour, je suis un contenu récupéré dans la BDD : ) 0.1",
+            "Titre03" : "Bonjour, je suis un contenu récupéré dans la BDD : ) 0.1",
+            "Titre04" : "Bonjour, je suis un contenu récupéré dans la BDD : ) 0.1"
+        },
+        "traits": [
+            {
+                "id": "traitbenr001",
+                "titre": "Barbe-de-Bronze",
+                "description": "Augmente la résistance physique de 5 et la résistance au givre de 10. Augmente également la force et la constitution de 1.",
+                "statsetbonus": [
+                    {
+                        "Force": 1,
+                        "Constitution": 1,
+                        "Résistance physique": 10,
+                        "Résistance au givre": 10
+                    }
+                ]
+            },
+            {
+                "id": "traitbenr002",
+                "titre": "Stable ",
+                "description": "Sera moins impacté que les autres races par tout effet qui vise à le faire tomber ou à le projeter dans une direction.",
+                "statsetbonus": [
+                    {
+                        "Bonus": "Moins impacté par les projections et les mises à terre"
+                    }
+                ]
+            },
+            {
+                "id": "traitbenr003",
+                "titre": "Talent artisanal",
+                "description": "Augmente de 10% l'acquisition de points de maîtrise dans tous les domaines qui relèvent de l'artisanat (notamment l'enchantement, la maîtrise des systèmes magiques et l'alchimise).",
+                "statsetbonus": [
+                    {
+                        "Gains en enchantement classique": 10
+                    }
+                ]
+            },
+            {
+                "id": "traitbenr004",
+                "titre": "Surpoids notable",
+                "description": "Benrig a accumulé un problème au fil des années d'inactivité physique et d'abus alimentaires. Rien d'impossible à solutionner, mais le problème reste clair. Il est gros. Et il sera moins endurant tant que cela durera. Mais grâce à sa dermination, Benrig a surmonté son problème de poids.",
+                "statsetbonus": [
+                    {
+                        "Volonté": 2
+                    }
+                ]
+            },
+            {
+                "id": "traitbenr005",
+                "titre": "Trait inconnu",
+                "description": "???",
+                "statsetbonus": [
+                    {
+                        "Affinité arcanique": 2
+                    }
+                ]
+            }
+        ],
+        "domainesgeneraux": [
+            {
+                "id": "1constitution",
+                "title": "Renforcement physique",
+                "points": 462
+            },
+            {
+                "id": "2force",
+                "title": "Puissance musculaire",
+                "points": 0
+            },
+            {
+                "id": "3agilite",
+                "title": "Souplesse et précision",
+                "points": 100
+            },
+            {
+                "id": "4discretion",
+                "title": "Art de la discrétion",
+                "points": 100
+            },
+            {
+                "id": "5perception",
+                "title": "Maîtrise des sens",
+                "points": 100
+            },
+            {
+                "id": "6intelligence",
+                "title": "Facultés cognitives",
+                "points": 1855
+            },
+            {
+                "id": "7volonte",
+                "title": "Force de la volonté",
+                "points": 260
+            }
+        ],
+        "domainesmagiques": [
+            {
+                "id": "1energ",
+                "title": "Maîtrise de l'énergie",
+                "points": 1140
+            },
+            {
+                "id": "2sorti",
+                "title": "Maîtrise des sortilèges",
+                "points": 1191
+            },
+            {
+                "id": "3rituel",
+                "title": "Maîtrise des rituels",
+                "points": 0
+            },
+            {
+                "id": "4destru",
+                "title": "Destruction",
+                "points": 82
+            },
+            {
+                "id": "5abjur",
+                "title": "Abjuration",
+                "points": 1177
+            },
+            {
+                "id": "6defcmag",
+                "title": "Défense contre la magie",
+                "points": 274
+            },
+            {
+                "id": "7transpat",
+                "title": "Transmutation spatiale",
+                "points": 0
+            },
+            {
+                "id": "8trantemp",
+                "title": "Transmutation temporelle",
+                "points": 0
+            },
+            {
+                "id": "9tranmat",
+                "title": "Transmutation de la matière",
+                "points": 0
+            },
+            {
+                "id": "10transfig",
+                "title": "Transfiguration",
+                "points": 0
+            },
+            {
+                "id": "11illupro",
+                "title": "Illusions projectives",
+                "points": 0
+            },
+            {
+                "id": "12enchclas",
+                "title": "Enchantement classique",
+                "points": 2270
+            },
+            {
+                "id": "13enchcomb",
+                "title": "Enchantement de combat",
+                "points": 0
+            },
+            {
+                "id": "14sysmag",
+                "title": "Maîtrise des systèmes magiques",
+                "points": 509
+            },
+            {
+                "id": "15divspat",
+                "title": "Divination spatiale",
+                "points": 1220
+            },
+            {
+                "id": "16divtemp",
+                "title": "Divination temporelle",
+                "points": 0
+            },
+            {
+                "id": "17percepmag",
+                "title": "Perception de la magie",
+                "points": 0
+            }
+        ],
+        "portrait": "https://2img.net/u/4013/71/00/37/avatars/8-60.jpg"
+    },
+    {
+        "id": "6540347bfaaae864a6ce63f4",
+        "joueur": "Xavier",
+        "prenom": "Cyesara",
+        "nom": "Vengehélion",
+        "surnom": "XaxaLeSuprême",
+        "age": "0",
+        "description": "Super cool",
+        "resumerp": "Très mystérieux",
+        "race": "Sin'dorei",
+        "caracs": [
+            {
+                "Constitution": 0,
+                "Force": 0,
+                "Agilité": 0,
+                "Furtivité": 0,
+                "Perception": 0,
+                "Intelligence": 0,
+                "Volonté": 0
+            }
+        ],
+        "inforp": {
+            "Titre01" : "Bonjour, je suis un contenu récupéré dans la BDD : ) 0.1",
+            "Titre02" : "Bonjour, je suis un contenu récupéré dans la BDD : ) 0.1",
+            "Titre03" : "Bonjour, je suis un contenu récupéré dans la BDD : ) 0.1",
+            "Titre04" : "Bonjour, je suis un contenu récupéré dans la BDD : ) 0.1"
+        },
+        "traits": [
+            {
+                "id": "trait01",
+                "titre": "testtitre01",
+                "description": "testdescri01",
+                "statsetbonus": [
+                    {
+                        "Force": 1
+                    }
+                ]
+            }
+        ],
+        "domainesgeneraux": [
+            {
+                "id": "1constitution",
+                "title": "Renforcement physique",
+                "points": 0
+            },
+            {
+                "id": "2force",
+                "title": "Puissance musculaire",
+                "points": 0
+            },
+            {
+                "id": "3agilite",
+                "title": "Souplesse et précision",
+                "points": 0
+            },
+            {
+                "id": "4discretion",
+                "title": "Art de la discrétion",
+                "points": 0
+            },
+            {
+                "id": "5perception",
+                "title": "Maîtrise des sens",
+                "points": 0
+            },
+            {
+                "id": "6intelligence",
+                "title": "Facultés cognitives",
+                "points": 0
+            },
+            {
+                "id": "7volonte",
+                "title": "Force de la volonté",
+                "points": 0
+            }
+        ],
+        "domainesmagiques": [
+            {
+                "id": "1energ",
+                "title": "Maîtrise de l'énergie",
+                "points": 1900
+            },
+            {
+                "id": "2sorti",
+                "title": "Maîtrise des sortilèges",
+                "points": 1100
+            },
+            {
+                "id": "3rituel",
+                "title": "Maîtrise des rituels",
+                "points": 0
+            },
+            {
+                "id": "4destru",
+                "title": "Destruction",
+                "points": 500
+            },
+            {
+                "id": "5abjur",
+                "title": "Abjuration",
+                "points": 2900
+            },
+            {
+                "id": "6defcmag",
+                "title": "Défense contre la magie",
+                "points": 1900
+            },
+            {
+                "id": "7transpat",
+                "title": "Transmutation spatiale",
+                "points": 500
+            },
+            {
+                "id": "8trantemp",
+                "title": "Transmutation temporelle",
+                "points": 0
+            },
+            {
+                "id": "9tranmat",
+                "title": "Transmutation de la matière",
+                "points": 0
+            },
+            {
+                "id": "10transfig",
+                "title": "Transfiguration",
+                "points": 0
+            },
+            {
+                "id": "11illupro",
+                "title": "Illusions projectives",
+                "points": 0
+            },
+            {
+                "id": "12enchclas",
+                "title": "Enchantement classique",
+                "points": 0
+            },
+            {
+                "id": "13enchcomb",
+                "title": "Enchantement de combat",
+                "points": 0
+            },
+            {
+                "id": "14sysmag",
+                "title": "Maîtrise des systèmes magiques",
+                "points": 0
+            },
+            {
+                "id": "15divspat",
+                "title": "Divination spatiale",
+                "points": 0
+            },
+            {
+                "id": "16divtemp",
+                "title": "Divination temporelle",
+                "points": 1900
+            },
+            {
+                "id": "17percepmag",
+                "title": "Perception de la magie",
+                "points": 0
+            }
+        ],
+        "portrait": "https://2img.net/u/4013/71/00/37/avatars/3-91.jpg"
+    },
+    {
+        "id": "653ff6ca32f09d51e0d31dde",
+        "joueur": "Soom",
+        "prenom": "Bolvar",
+        "nom": "Desmond",
+        "surnom": "BoboDeMerde",
+        "age": "0",
+        "description": "Violent",
+        "resumerp": "Sombre",
+        "race": "HumainDeMerde",
+        "caracs": [
+            {
+                "Constitution": 0,
+                "Force": 0,
+                "Agilité": 0,
+                "Furtivité": 0,
+                "Perception": 0,
+                "Intelligence": 0,
+                "Volonté": 0
+            }
+        ],
+        "traits": [
+            {
+                "id": "trait01",
+                "titre": "testtitre01",
+                "description": "testdescri01",
+                "statsetbonus": [
+                    {
+                        "Force": 1
+                    }
+                ]
+            }
+        ],
+        "domainesgeneraux": [
+            {
+                "id": "1constitution",
+                "title": "Renforcement physique",
+                "points": 0
+            },
+            {
+                "id": "2force",
+                "title": "Puissance musculaire",
+                "points": 0
+            },
+            {
+                "id": "3agilite",
+                "title": "Souplesse et précision",
+                "points": 0
+            },
+            {
+                "id": "4discretion",
+                "title": "Art de la discrétion",
+                "points": 0
+            },
+            {
+                "id": "5perception",
+                "title": "Maîtrise des sens",
+                "points": 0
+            },
+            {
+                "id": "6intelligence",
+                "title": "Facultés cognitives",
+                "points": 0
+            },
+            {
+                "id": "7volonte",
+                "title": "Force de la volonté",
+                "points": 0
+            }
+        ],
+        "domainesmagiques": [
+            {
+                "id": "1energ",
+                "title": "Maîtrise de l'énergie",
+                "points": 2900
+            },
+            {
+                "id": "2sorti",
+                "title": "Maîtrise des sortilèges",
+                "points": 500
+            },
+            {
+                "id": "3rituel",
+                "title": "Maîtrise des rituels",
+                "points": 0
+            },
+            {
+                "id": "4destru",
+                "title": "Destruction",
+                "points": 1900
+            },
+            {
+                "id": "5abjur",
+                "title": "Abjuration",
+                "points": 1100
+            },
+            {
+                "id": "6defcmag",
+                "title": "Défense contre la magie",
+                "points": 100
+            },
+            {
+                "id": "7transpat",
+                "title": "Transmutation spatiale",
+                "points": 0
+            },
+            {
+                "id": "8trantemp",
+                "title": "Transmutation temporelle",
+                "points": 0
+            },
+            {
+                "id": "9tranmat",
+                "title": "Transmutation de la matière",
+                "points": 0
+            },
+            {
+                "id": "10transfig",
+                "title": "Transfiguration",
+                "points": 0
+            },
+            {
+                "id": "11illupro",
+                "title": "Illusions projectives",
+                "points": 0
+            },
+            {
+                "id": "12enchclas",
+                "title": "Enchantement classique",
+                "points": 100
+            },
+            {
+                "id": "13enchcomb",
+                "title": "Enchantement de combat",
+                "points": 0
+            },
+            {
+                "id": "14sysmag",
+                "title": "Maîtrise des systèmes magiques",
+                "points": 100
+            },
+            {
+                "id": "15divspat",
+                "title": "Divination spatiale",
+                "points": 0
+            },
+            {
+                "id": "16divtemp",
+                "title": "Divination temporelle",
+                "points": 0
+            },
+            {
+                "id": "17percepmag",
+                "title": "Perception de la magie",
+                "points": 1100
+            }
+        ],
+        "portrait": null
+    },
+    {
+        "id": "65403456faaae864a6ce63e4",
+        "joueur": "Flavien",
+        "prenom": "Gaddi",
+        "nom": null,
+        "surnom": null,
+        "age": "0",
+        "description": "Vert",
+        "resumerp": "Boom le mana",
+        "race": "Gobelin",
+        "caracs": [
+            {
+                "Constitution": 0,
+                "Force": 0,
+                "Agilité": 0,
+                "Furtivité": 0,
+                "Perception": 0,
+                "Intelligence": 0,
+                "Volonté": 0
+            }
+        ],
+        "traits": [
+            {
+                "id": "trait01",
+                "titre": "testtitre01",
+                "description": "testdescri01",
+                "statsetbonus": [
+                    {
+                        "Force": 1
+                    }
+                ]
+            }
+        ],
+        "domainesgeneraux": [
+            {
+                "id": "1constitution",
+                "title": "Renforcement physique",
+                "points": 0
+            },
+            {
+                "id": "2force",
+                "title": "Puissance musculaire",
+                "points": 0
+            },
+            {
+                "id": "3agilite",
+                "title": "Souplesse et précision",
+                "points": 0
+            },
+            {
+                "id": "4discretion",
+                "title": "Art de la discrétion",
+                "points": 0
+            },
+            {
+                "id": "5perception",
+                "title": "Maîtrise des sens",
+                "points": 0
+            },
+            {
+                "id": "6intelligence",
+                "title": "Facultés cognitives",
+                "points": 0
+            },
+            {
+                "id": "7volonte",
+                "title": "Force de la volonté",
+                "points": 0
+            }
+        ],
+        "domainesmagiques": [
+            {
+                "id": "1energ",
+                "title": "Maîtrise de l'énergie",
+                "points": 500
+            },
+            {
+                "id": "2sorti",
+                "title": "Maîtrise des sortilèges",
+                "points": 1100
+            },
+            {
+                "id": "3rituel",
+                "title": "Maîtrise des rituels",
+                "points": 0
+            },
+            {
+                "id": "4destru",
+                "title": "Destruction",
+                "points": 0
+            },
+            {
+                "id": "5abjur",
+                "title": "Abjuration",
+                "points": 1900
+            },
+            {
+                "id": "6defcmag",
+                "title": "Défense contre la magie",
+                "points": 500
+            },
+            {
+                "id": "7transpat",
+                "title": "Transmutation spatiale",
+                "points": 100
+            },
+            {
+                "id": "8trantemp",
+                "title": "Transmutation temporelle",
+                "points": 0
+            },
+            {
+                "id": "9tranmat",
+                "title": "Transmutation de la matière",
+                "points": 0
+            },
+            {
+                "id": "10transfig",
+                "title": "Transfiguration",
+                "points": 2900
+            },
+            {
+                "id": "11illupro",
+                "title": "Illusions projectives",
+                "points": 100
+            },
+            {
+                "id": "12enchclas",
+                "title": "Enchantement classique",
+                "points": 0
+            },
+            {
+                "id": "13enchcomb",
+                "title": "Enchantement de combat",
+                "points": 500
+            },
+            {
+                "id": "14sysmag",
+                "title": "Maîtrise des systèmes magiques",
+                "points": 0
+            },
+            {
+                "id": "15divspat",
+                "title": "Divination spatiale",
+                "points": 0
+            },
+            {
+                "id": "16divtemp",
+                "title": "Divination temporelle",
+                "points": 0
+            },
+            {
+                "id": "17percepmag",
+                "title": "Perception de la magie",
+                "points": 0
+            }
+        ],
+        "portrait": "https://2img.net/u/4013/71/00/37/avatars/2-32.jpg"
+    },
+    {
+        "id": "6540346efaaae864a6ce63ec",
+        "joueur": "Vlad",
+        "prenom": "Jixie",
+        "nom": null,
+        "surnom": null,
+        "age": "0",
+        "description": "Pétillante",
+        "resumerp": "Oh mamasita",
+        "race": "Gobeline",
+        "caracs": [
+            {
+                "Constitution": 0,
+                "Force": 0,
+                "Agilité": 0,
+                "Furtivité": 0,
+                "Perception": 0,
+                "Intelligence": 0,
+                "Volonté": 0
+            }
+        ],
+        "traits": [
+            {
+                "id": "trait01",
+                "titre": "testtitre01",
+                "description": "testdescri01",
+                "statsetbonus": [
+                    {
+                        "Force": 1
+                    }
+                ]
+            }
+        ],
+        "domainesgeneraux": [
+            {
+                "id": "1constitution",
+                "title": "Renforcement physique",
+                "points": 0
+            },
+            {
+                "id": "2force",
+                "title": "Puissance musculaire",
+                "points": 0
+            },
+            {
+                "id": "3agilite",
+                "title": "Souplesse et précision",
+                "points": 0
+            },
+            {
+                "id": "4discretion",
+                "title": "Art de la discrétion",
+                "points": 0
+            },
+            {
+                "id": "5perception",
+                "title": "Maîtrise des sens",
+                "points": 0
+            },
+            {
+                "id": "6intelligence",
+                "title": "Facultés cognitives",
+                "points": 0
+            },
+            {
+                "id": "7volonte",
+                "title": "Force de la volonté",
+                "points": 0
+            }
+        ],
+        "domainesmagiques": [
+            {
+                "id": "1energ",
+                "title": "Maîtrise de l'énergie",
+                "points": 1100
+            },
+            {
+                "id": "2sorti",
+                "title": "Maîtrise des sortilèges",
+                "points": 1100
+            },
+            {
+                "id": "3rituel",
+                "title": "Maîtrise des rituels",
+                "points": 0
+            },
+            {
+                "id": "4destru",
+                "title": "Destruction",
+                "points": 0
+            },
+            {
+                "id": "5abjur",
+                "title": "Abjuration",
+                "points": 0
+            },
+            {
+                "id": "6defcmag",
+                "title": "Défense contre la magie",
+                "points": 100
+            },
+            {
+                "id": "7transpat",
+                "title": "Transmutation spatiale",
+                "points": 1900
+            },
+            {
+                "id": "8trantemp",
+                "title": "Transmutation temporelle",
+                "points": 0
+            },
+            {
+                "id": "9tranmat",
+                "title": "Transmutation de la matière",
+                "points": 1900
+            },
+            {
+                "id": "10transfig",
+                "title": "Transfiguration",
+                "points": 0
+            },
+            {
+                "id": "11illupro",
+                "title": "Illusions projectives",
+                "points": 0
+            },
+            {
+                "id": "12enchclas",
+                "title": "Enchantement classique",
+                "points": 0
+            },
+            {
+                "id": "13enchcomb",
+                "title": "Enchantement de combat",
+                "points": 0
+            },
+            {
+                "id": "14sysmag",
+                "title": "Maîtrise des systèmes magiques",
+                "points": 0
+            },
+            {
+                "id": "15divspat",
+                "title": "Divination spatiale",
+                "points": 0
+            },
+            {
+                "id": "16divtemp",
+                "title": "Divination temporelle",
+                "points": 0
+            },
+            {
+                "id": "17percepmag",
+                "title": "Perception de la magie",
+                "points": 0
+            }
+        ],
+        "portrait": null
+    },
+    {
+        "id": "65403475faaae864a6ce63f0",
+        "joueur": "Syriane",
+        "prenom": "Adora",
+        "nom": "Mildenhall",
+        "surnom": null,
+        "age": "0",
+        "description": "???",
+        "resumerp": "???",
+        "race": "Humaine",
+        "caracs": [
+            {
+                "Constitution": 0,
+                "Force": 0,
+                "Agilité": 0,
+                "Furtivité": 0,
+                "Perception": 0,
+                "Intelligence": 0,
+                "Volonté": 0
+            }
+        ],
+        "traits": [
+            {
+                "id": "trait01",
+                "titre": "testtitre01",
+                "description": "testdescri01",
+                "statsetbonus": [
+                    {
+                        "Force": 1
+                    }
+                ]
+            }
+        ],
+        "domainesgeneraux": [
+            {
+                "id": "1constitution",
+                "title": "Renforcement physique",
+                "points": 0
+            },
+            {
+                "id": "2force",
+                "title": "Puissance musculaire",
+                "points": 0
+            },
+            {
+                "id": "3agilite",
+                "title": "Souplesse et précision",
+                "points": 0
+            },
+            {
+                "id": "4discretion",
+                "title": "Art de la discrétion",
+                "points": 0
+            },
+            {
+                "id": "5perception",
+                "title": "Maîtrise des sens",
+                "points": 0
+            },
+            {
+                "id": "6intelligence",
+                "title": "Facultés cognitives",
+                "points": 0
+            },
+            {
+                "id": "7volonte",
+                "title": "Force de la volonté",
+                "points": 0
+            }
+        ],
+        "domainesmagiques": [
+            {
+                "id": "1energ",
+                "title": "Maîtrise de l'énergie",
+                "points": 1900
+            },
+            {
+                "id": "2sorti",
+                "title": "Maîtrise des sortilèges",
+                "points": 2900
+            },
+            {
+                "id": "3rituel",
+                "title": "Maîtrise des rituels",
+                "points": 500
+            },
+            {
+                "id": "4destru",
+                "title": "Destruction",
+                "points": 500
+            },
+            {
+                "id": "5abjur",
+                "title": "Abjuration",
+                "points": 2900
+            },
+            {
+                "id": "6defcmag",
+                "title": "Défense contre la magie",
+                "points": 1900
+            },
+            {
+                "id": "7transpat",
+                "title": "Transmutation spatiale",
+                "points": 0
+            },
+            {
+                "id": "8trantemp",
+                "title": "Transmutation temporelle",
+                "points": 0
+            },
+            {
+                "id": "9tranmat",
+                "title": "Transmutation de la matière",
+                "points": 0
+            },
+            {
+                "id": "10transfig",
+                "title": "Transfiguration",
+                "points": 0
+            },
+            {
+                "id": "11illupro",
+                "title": "Illusions projectives",
+                "points": 0
+            },
+            {
+                "id": "12enchclas",
+                "title": "Enchantement classique",
+                "points": 0
+            },
+            {
+                "id": "13enchcomb",
+                "title": "Enchantement de combat",
+                "points": 0
+            },
+            {
+                "id": "14sysmag",
+                "title": "Maîtrise des systèmes magiques",
+                "points": 1100
+            },
+            {
+                "id": "15divspat",
+                "title": "Divination spatiale",
+                "points": 0
+            },
+            {
+                "id": "16divtemp",
+                "title": "Divination temporelle",
+                "points": 0
+            },
+            {
+                "id": "17percepmag",
+                "title": "Perception de la magie",
+                "points": 0
+            }
+        ],
+        "portrait": "https://2img.net/u/4013/71/00/37/avatars/7-75.jpg"
+    }
+]

@@ -1,0 +1,100 @@
+@keyframes clignoterError {
+    0%, 100% {
+        color: red;
+    }
+
+    50% {
+        color: white;
+    }
+}
+
+@keyframes clignoterSuccess {
+    0%, 100% {
+        color: green;
+    }
+
+    50% {
+        color: white;
+    }
+}
+
+.login-box {
+    margin: auto;
+    width: 40%;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.login-box form {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 48px;
+    align-items: center;
+}
+
+.form-line {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 60%;
+    margin: 0px auto 0px auto;
+    gap: 6px;
+    color: white;
+}
+
+.login-box input {
+    height: 32px;
+    width: 100%;
+    border-radius: 20px;
+    border: 8px solid white;
+    background-color: white !important;
+    padding: 2px 8px 2px 8px;
+    font-size: 18px;
+}
+
+.login-box input:focus{
+    outline:none;
+    box-shadow: 0px 0px 10px rgb(250, 105, 255);
+}
+
+.login-box button {
+    height: 60px;
+    width: 40%;
+    font-size: 20px;
+    border-radius: 0px;
+    border-style: none;
+    background-color: white;
+}
+
+.login-box button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.login-box button:active {
+    transform: scale(0.9);
+}
+
+.login-box p {
+    animation: clignoterError 3s linear infinite; /* Animation par défaut pour les éléments <p> sous .login-box */
+    font-size: 24px;
+    width:fit-content;
+}
+
+#response-status.success-message {
+    color: green;
+    animation: clignoterSuccess 3s linear infinite; /* Animation pour .success-message */
+}
+
+#response-status:hover {
+    color: red;
+    animation: none; /* Vous pouvez désactiver l'animation au survol si nécessaire */
+}
+
+#response-status.success-message:hover {
+    color: green;
+    animation: none; /* Vous pouvez désactiver l'animation au survol si nécessaire */
+}
